@@ -15,10 +15,11 @@ export default async function create(req, res) {
       emailBlacklisted: false,
       smsBlacklisted: false,
       listIds: [2],
+      updateEnabled: true,
     }),
   });
-
   res.status(response.status).json({
     data: response.data,
+    error: response.error,
   });
 }
