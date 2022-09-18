@@ -58,11 +58,12 @@ a {
 }
 
 .main-title {
-  text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.7), -2px -2px 0 #fff,
-    2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.7);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
   color: #8f8f8f;
   background: transparent;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1.3;
 }
 
