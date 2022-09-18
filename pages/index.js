@@ -11,7 +11,8 @@ export default function Home() {
   var validRegex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-  async function handleSubmit() {
+  async function handleSubmit(event) {
+    event.preventDefault();
     if (!email) {
       return;
     }
@@ -29,8 +30,6 @@ export default function Home() {
           }
         })
         .catch((err) => console.log(err));
-    } else {
-      alert("Neplatný email");
     }
   }
 
@@ -53,79 +52,83 @@ export default function Home() {
       <div className="absolute opacity-25 flex justify-center w-full top-24 z-0">
         <Image src="/assets/elephant.png" alt="logo" width={280} height={280} />
       </div>
-      <div className="overlay ">
+      <div className="overlay">
         <div className="px-3">
-          <h3 className="text-center pt-12 text-2xl">Arthur F. Sniegon</h3>
-          <div className="h-[1px] w-8 bg-white mt-9 mb-2 mx-auto"></div>
+          <div>
+            <h3 className="text-center pt-12 text-2xl">Arthur F. Sniegon</h3>
+            <div className="h-[1px] w-8 bg-white mt-9 mb-2 mx-auto"></div>
 
-          <h1 className="relative text-center main-title z-50 text-5xl md:text-8xl">
-            THE ELEPHANGELIST
-          </h1>
+            <h1 className="relative text-center main-title z-50 text-5xl md:text-8xl">
+              THE ELEPHANGELIST
+            </h1>
 
-          <p className="relative text-center mt-5 text-2xl z-10 font-bold">
-            PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE
-          </p>
-          <div className="flex flex-col md:flex-row justify-center items-center mt-16 md:mt-32">
-            <div className="flex justify-center border-[3px] rounded-full w-14 h-14 m-4 md:m-8">
-              <div className="flex mx-auto pl-1">
+            <p className="relative text-center mt-5 text-2xl z-10 font-bold">
+              PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE
+            </p>
+          </div>
+          <div>
+            <div className="flex flex-col md:flex-row justify-center items-center mt-16 md:mt-32">
+              <div className="flex justify-center border-[3px] rounded-full w-14 h-14 m-4 md:m-8">
+                <div className="flex mx-auto pl-1">
+                  <Image
+                    src="/assets/play.svg"
+                    width={22}
+                    height={22}
+                    alt="play"
+                  />
+                </div>
+              </div>
+
+              <span className="text-center text-2xl md:text-3xl font-bold">
+                <b>ONLINE PREMIÉRA - 16.října 2022 - 19:00</b>
+              </span>
+            </div>
+            <div className="text-center text-2xl font-medium">
+              <Countdown date={new Date(2022, 9, 16, 19)} renderer={renderer} />
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8">
+              <div className="flex items-center justify-center">
                 <Image
-                  src="/assets/play.svg"
-                  width={22}
-                  height={22}
-                  alt="play"
+                  src="/assets/huawei.svg"
+                  width={150}
+                  height={50}
+                  alt="huawei"
                 />
               </div>
-            </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/assets/zeme-kvet.png"
+                  width={150}
+                  height={85}
+                  alt="zeměkvět"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/assets/nadace.png"
+                  width={150}
+                  height={62}
+                  alt="nadace Ivana Dejmala"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/assets/film-crew.png"
+                  width={80}
+                  height={80}
+                  alt="film crew"
+                />
+              </div>
 
-            <span className="text-center text-3xl font-bold">
-              <b>ONLINE PREMIÉRA - 16.října 2022 - 19:00</b>
-            </span>
-          </div>
-          <div className="text-center text-2xl font-medium">
-            <Countdown date={new Date(2022, 9, 16, 19)} renderer={renderer} />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8">
-            <div className="flex items-center justify-center">
-              <Image
-                src="/assets/huawei.svg"
-                width={150}
-                height={50}
-                alt="huawei"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <Image
-                src="/assets/zeme-kvet.png"
-                width={150}
-                height={85}
-                alt="zeměkvět"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <Image
-                src="/assets/nadace.png"
-                width={150}
-                height={62}
-                alt="nadace Ivana Dejmala"
-              />
-            </div>
-            <div className="flex items-center justify-center">
-              <Image
-                src="/assets/film-crew.png"
-                width={80}
-                height={80}
-                alt="film crew"
-              />
-            </div>
-
-            <div className="flex items-center justify-center">
-              <Image
-                src="/assets/gumotex.png"
-                width={150}
-                height={57}
-                alt="gumotex"
-              />
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/assets/gumotex.png"
+                  width={150}
+                  height={57}
+                  alt="gumotex"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -146,20 +149,23 @@ export default function Home() {
                     />
                   </div>
                 ) : (
-                  <>
+                  <form
+                    onSubmit={handleSubmit}
+                    className="flex justify-end items-center"
+                  >
                     <input
                       className="border-2 rounded-xl h-12 bg-transparent pl-4 pr-12 placeholder:text-white font-normal"
                       placeholder="zadej svůj email"
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      onSubmit={handleSubmit}
                       required
                     />
 
-                    <div
+                    <button
                       className="absolute w-10 mr-2 flex items-center cursor-pointer"
                       onClick={handleSubmit}
+                      type="submit"
                     >
                       <Image
                         src="/assets/arrow-right.svg"
@@ -167,8 +173,8 @@ export default function Home() {
                         height={32}
                         alt="submit"
                       />
-                    </div>
-                  </>
+                    </button>
+                  </form>
                 )}
               </div>
             </span>
