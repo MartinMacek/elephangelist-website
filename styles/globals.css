@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/font/Rajdhani-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/font/Rajdhani-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/font/Rajdhani-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/font/Rajdhani-Medium.ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Rajdhani, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.main-title {
+  text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.7), -2px -2px 0 #fff,
+    2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  color: #8f8f8f;
+  background: transparent;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.background {
+  background-image: url("/assets/background.webp");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  min-height: 100vh;
+}
+
+.filter {
+  filter: brightness(0) invert(1);
+  opacity: 0.5;
+}
