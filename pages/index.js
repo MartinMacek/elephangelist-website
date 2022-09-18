@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -49,6 +50,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>The Elephangelist - Arthur F. Sniegon</title>
+        <description>PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE</description>
+      </Head>
       <div className="absolute opacity-25 flex justify-center w-full top-24 z-0">
         <Image src="/assets/elephant.png" alt="logo" width={280} height={280} />
       </div>
@@ -87,7 +92,7 @@ export default function Home() {
               <Countdown date={new Date(2022, 9, 16, 19)} renderer={renderer} />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8 mb-12 md:mb-8">
               <div className="flex items-center justify-center">
                 <Image
                   src="/assets/huawei.svg"
