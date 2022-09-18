@@ -9,6 +9,8 @@ export default function Home() {
 
   const [success, setSuccess] = useState(false);
 
+  const [loading, setLoading] = useState(false);
+
   var validRegex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
@@ -18,6 +20,7 @@ export default function Home() {
       return;
     }
     if (email.match(validRegex)) {
+      setLoading(true);
       await fetch(`/api/create?email=${email}`, {
         headers: {
           Accept: "application/json",
@@ -31,6 +34,7 @@ export default function Home() {
           }
         })
         .catch((err) => console.log(err));
+      setLoading(false);
     }
   }
 
@@ -158,12 +162,16 @@ export default function Home() {
                     className="flex justify-end items-center"
                   >
                     <input
-                      className="border-2 rounded-xl h-12 bg-transparent pl-4 pr-12 placeholder:text-white font-normal"
+                      className={
+                        "border-2 rounded-xl h-12 bg-transparent pl-4 pr-12 placeholder:text-white font-normal " +
+                        (loading ? "opacity-50" : "")
+                      }
                       placeholder="zadej svůj email"
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
+                      disabled={loading}
                     />
 
                     <button
