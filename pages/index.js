@@ -52,7 +52,6 @@ export default function Home() {
     <>
       <Head>
         <title>The Elephangelist - Arthur F. Sniegon</title>
-        <description>PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE</description>
       </Head>
       <div className="absolute opacity-25 flex justify-center w-full top-24 z-0">
         <Image src="/assets/elephant.png" alt="logo" width={280} height={280} />
