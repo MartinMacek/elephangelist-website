@@ -83,7 +83,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div className="flex flex-col md:flex-row justify-center items-center mt-16 md:mt-32">
+            <div className="flex flex-col md:flex-row justify-center items-center mt-16">
               <div className="hidden md:flex justify-center w-16 h-16 mr-4 invert">
                 <div className="flex mx-auto pl-1">
                   <Image
