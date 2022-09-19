@@ -71,7 +71,7 @@ export default function Home() {
       <div className="overlay">
         <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
           <div>
-            <h3 className="text-center pt-12 text-2xl">Arthur F. Sniegon</h3>
+            <h3 className="text-center pt-2 text-2xl">Arthur F. Sniegon</h3>
             <div className="h-[1px] w-8 bg-white mt-9 mb-2 mx-auto"></div>
 
             <h1 className="relative text-center main-title z-50 text-3xl md:text-7xl">
@@ -83,7 +83,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div className="flex flex-col md:flex-row justify-center items-center mt-16">
+            <div className="flex flex-col md:flex-row justify-center items-center mt-14 md:mt-20">
               <div className="hidden md:flex justify-center w-16 h-16 mr-4 invert">
                 <div className="flex mx-auto pl-1">
                   <Image
