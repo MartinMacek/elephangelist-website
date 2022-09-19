@@ -69,7 +69,7 @@ export default function Home() {
       </Head>
 
       <div className="overlay">
-        <div className="px-3">
+        <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
           <div>
             <h3 className="text-center pt-12 text-2xl">Arthur F. Sniegon</h3>
             <div className="h-[1px] w-8 bg-white mt-9 mb-2 mx-auto"></div>
@@ -78,19 +78,20 @@ export default function Home() {
               THE ELEPHANGELIST
             </h1>
 
-            <p className="relative text-center mt-5 text-2xl z-10 font-bold">
+            <p className="relative text-center mt-5 md:text-2xl z-10 font-bold">
               PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE
             </p>
           </div>
           <div>
             <div className="flex flex-col md:flex-row justify-center items-center mt-16 md:mt-32">
-              <div className="flex justify-center border-[3px] rounded-full w-10 h-10 m-4">
+              <div className="hidden md:flex justify-center w-16 h-16 mr-4 invert">
                 <div className="flex mx-auto pl-1">
                   <Image
-                    src="/assets/play.svg"
-                    width={18}
-                    height={18}
-                    alt="play"
+                    src="/assets/video.png"
+                    width={128}
+                    height={128}
+                    alt="video"
+                    quality={100}
                   />
                 </div>
               </div>
@@ -103,7 +104,7 @@ export default function Home() {
               <Countdown date={new Date(2022, 9, 16, 19)} renderer={renderer} />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8 mb-12 md:mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8 mb-12 md:mb-8">
               <div className="flex items-center justify-center">
                 <Image
                   src="/assets/huawei.svg"
