@@ -66,17 +66,18 @@ export default function Home() {
     <>
       <Head>
         <title>The Elephangelist - Arthur F. Sniegon</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <div className="overlay">
-        <div className="px-3 min-h-screen flex flex-col justify-around md:justify-between pb-52 md:pb-36">
-          <div>
+        <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
+          <div className=" min-h-[50vh] md:min-h-0 ">
             <h3 className="text-center pt-2 md:text-lg mt-8">
               Arthur F. Sniegon
             </h3>
             <div className="h-[1px] w-8 bg-white mt-4 mb-3 mx-auto"></div>
 
-            <h1 className="relative text-center main-title z-50 text-3xl md:text-7xl">
+            <h1 className="relative text-center main-title z-50 text-4xl md:text-7xl">
               THE ELEPHANGELIST
             </h1>
 

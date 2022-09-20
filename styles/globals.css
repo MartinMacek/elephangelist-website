@@ -73,6 +73,7 @@ a {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   min-height: 100vh;
+  background-attachment: fixed;
 }
 
 .overlay {
