@@ -69,38 +69,40 @@ export default function Home() {
       </Head>
 
       <div className="overlay">
-        <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
+        <div className="px-3 min-h-screen flex flex-col justify-around md:justify-between pb-52 md:pb-36">
           <div>
-            <h3 className="text-center pt-2 text-2xl">Arthur F. Sniegon</h3>
-            <div className="h-[1px] w-8 bg-white mt-9 mb-2 mx-auto"></div>
+            <h3 className="text-center pt-2 md:text-lg mt-8">
+              Arthur F. Sniegon
+            </h3>
+            <div className="h-[1px] w-8 bg-white mt-4 mb-3 mx-auto"></div>
 
             <h1 className="relative text-center main-title z-50 text-3xl md:text-7xl">
               THE ELEPHANGELIST
             </h1>
 
-            <p className="relative text-center mt-5 md:text-2xl z-10 font-bold">
+            <p className="relative text-center mt-5 md:text-xl z-10 font-bold">
               PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE
             </p>
           </div>
           <div>
             <div className="flex flex-col md:flex-row justify-center items-center mt-14 md:mt-20">
-              <div className="hidden md:flex justify-center w-16 h-16 mr-4 invert">
+              <div className="hidden md:flex justify-center w-16 h-16 mr-4">
                 <div className="flex mx-auto pl-1">
                   <Image
-                    src="/assets/video.png"
-                    width={128}
-                    height={128}
+                    src="/assets/video.svg"
+                    width={48}
+                    height={48}
                     alt="video"
                     quality={100}
                   />
                 </div>
               </div>
 
-              <span className="text-center text-2xl md:text-3xl font-bold">
+              <span className="text-center text-xl md:text-2xl font-bold">
                 <b>ONLINE PREMIÉRA - 16.října 2022 - 19:00</b>
               </span>
             </div>
-            <div className="text-center text-2xl font-medium">
+            <div className="text-center md:text-lg font-medium">
               <Countdown date={new Date(2022, 9, 16, 19)} renderer={renderer} />
             </div>
 
@@ -152,7 +154,7 @@ export default function Home() {
 
         <div className="fixed bottom-0 right-0 left-0 bg-white">
           <div className="bg-[#CC8800] flex justify-center">
-            <span className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between w-full px-6 pt-4 md:pt-0 text-md md:text-lg items-center font-bold text-center">
+            <span className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between w-full px-6 pt-4 md:pt-0 text-md md:text-xl items-center font-bold text-center">
               Získej odkaz na film hodinu před premiérou
               <div className="flex justify-end items-center relative py-4">
                 {success ? (
@@ -210,14 +212,26 @@ export default function Home() {
             </span>
           </div>
           <div className="text-black flex justify-center">
-            <span className="max-w-6xl mx-auto flex flex-col md:flex-row w-full px-6 py-3 text-md md:text-lg justify-between items-center">
+            <span className="max-w-6xl mx-auto flex flex-col md:flex-row w-full px-6 py-3 text-md md:text-xl justify-between items-center">
               <span className="h-10 flex items-center text-center">
                 Stav se na veřejné promítání dokumentu
               </span>
               <span className="underline ">
-                <Link href="/">PRAHA</Link>
+                <a
+                  href="https://fb.me/e/2EuWI9dXY"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  PRAHA
+                </a>
                 <span className="ml-6">
-                  <Link href="/">OLOMOUC</Link>
+                  <a
+                    href="https://fb.me/e/2Y4rS5vJr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    OLOMOUC
+                  </a>
                 </span>
               </span>
             </span>
