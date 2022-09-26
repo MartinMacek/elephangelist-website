@@ -71,7 +71,7 @@ export default function Home() {
 
       <div className="overlay">
         <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
-          <div className=" min-h-[50vh] md:min-h-0 ">
+          <div className="min-h-[30vh] sm:min-h-[50vh] md:min-h-0 ">
             <h3 className="text-center pt-2 md:text-lg mt-8">
               Arthur F. Sniegon
             </h3>
@@ -155,7 +155,7 @@ export default function Home() {
 
         <div className="fixed bottom-0 right-0 left-0 bg-white">
           <div className="bg-[#CC8800] flex justify-center">
-            <span className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between w-full px-6 pt-4 md:pt-0 text-md md:text-xl items-center font-bold text-center">
+            <span className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between w-full px-4 pt-4 md:pt-0 text-md md:text-xl items-center font-bold text-center">
               Získej odkaz na film hodinu před premiérou
               <div className="flex justify-end items-center relative py-4">
                 {success ? (
@@ -213,7 +213,7 @@ export default function Home() {
             </span>
           </div>
           <div className="text-black flex justify-center">
-            <span className="max-w-6xl mx-auto flex flex-col md:flex-row w-full px-6 py-3 text-md md:text-xl justify-between items-center">
+            <span className="max-w-6xl mx-auto flex flex-col md:flex-row w-full px-4 py-3 text-md md:text-xl justify-between items-center">
               <span className="h-10 flex items-center text-center">
                 Stav se na veřejné promítání dokumentu
               </span>
