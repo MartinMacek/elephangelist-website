@@ -71,7 +71,7 @@ export default function Home() {
 
       <div className="overlay">
         <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
-          <div className="min-h-[30vh] xs:min-h-[50vh] md:min-h-0 ">
+          <div className="min-h-[35vh] xs:min-h-[50vh] md:min-h-0 ">
             <h3 className="text-center pt-2 md:text-lg mt-8">
               Arthur F. Sniegon
             </h3>
