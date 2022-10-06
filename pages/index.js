@@ -77,12 +77,12 @@ export default function Home() {
             </h3>
             <div className="h-[1px] w-8 bg-white mt-4 mb-3 mx-auto"></div>
 
-            <h1 className="relative text-center main-title z-50 text-4xl md:text-7xl">
+            <h1 className="relative text-center main-title z-50 text-4xl md:text-7xl font-['Bebas_Neue']">
               THE ELEPHANGELIST
             </h1>
 
             <p className="relative text-center mt-5 md:text-xl z-10 font-bold">
-              PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE
+              PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUDY ZVÍŘAT V AFRICE
             </p>
           </div>
           <div>
