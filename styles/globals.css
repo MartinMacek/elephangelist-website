@@ -28,6 +28,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/font/BebasNeue-Regular.ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
@@ -58,7 +65,7 @@ a {
 }
 
 .main-title {
-  text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.6);
+  text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.4);
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
   color: transparent;
