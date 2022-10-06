@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
 export default function Support() {
@@ -19,6 +20,7 @@ export default function Support() {
           na aktivity v Tsoulou...
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
