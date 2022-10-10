@@ -1,67 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import Countdown from "react-countdown";
+
+import Footer from "../components/footer";
+import HomePageRow from "../components/homepage-row";
+import Navbar from "../components/navbar";
+import { useTranslation } from "../utils/translateHook";
 
 export default function Home() {
-  const [email, setEmail] = useState("");
-
-  const [success, setSuccess] = useState(false);
-
-  const [loading, setLoading] = useState(false);
-
-  const [invalid, setInvalid] = useState(false);
-
-  var validRegex =
-    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-  async function handleSubmit(event) {
-    setInvalid(false);
-    event.preventDefault();
-    if (!email) {
-      return;
-    }
-    if (email.match(validRegex)) {
-      setLoading(true);
-      await fetch(`/api/create?email=${email}`, {
-        headers: {
-          Accept: "application/json",
-        },
-      })
-        .then((response) => response)
-        .then((response) => {
-          if (response.ok) {
-            setSuccess(true);
-            setEmail("");
-          } else {
-            //console.log(response);
-            if (response.status == 400) {
-              alert("Email již existuje!");
-            }
-          }
-        })
-        .catch((err) => console.log(err));
-      setLoading(false);
-    } else {
-      setInvalid(true);
-    }
-  }
-
-  const Completionist = () => <span>Odvysíláno!</span>;
-
-  const renderer = ({ days, hours, minutes, seconds, completed }) => {
-    if (completed) {
-      return <Completionist />;
-    } else {
-      return (
-        <span suppressHydrationWarning={true}>
-          zbývá {days}d {hours}h {minutes}m {seconds}s
-        </span>
-      );
-    }
-  };
-
+  const translate = useTranslation().translate;
   return (
     <>
       <Head>
@@ -69,176 +16,96 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className="overlay">
-        <div className="px-3 min-h-screen flex flex-col justify-around pb-52 md:pb-36">
-          <div className="min-h-[35vh] xs:min-h-[50vh] md:min-h-0 ">
-            <h3 className="text-center pt-2 md:text-lg mt-8">
-              Arthur F. Sniegon
-            </h3>
-            <div className="h-[1px] w-8 bg-white mt-4 mb-3 mx-auto"></div>
+      <Navbar />
 
-            <h1 className="relative text-center main-title z-50 text-4xl md:text-7xl">
-              THE ELEPHANGELIST
-            </h1>
-
-            <p className="relative text-center mt-5 md:text-xl z-10 font-bold">
-              PŘÍBĚH ČECHA, KTERÝ MĚNÍ OSUD SLONŮ V AFRICE
-            </p>
-          </div>
-          <div>
-            <div className="flex flex-col md:flex-row justify-center items-center mt-14 md:mt-20">
-              <div className="hidden md:flex justify-center w-16 h-16 mr-4">
-                <div className="flex mx-auto pl-1">
-                  <Image
-                    src="/assets/video.svg"
-                    width={48}
-                    height={48}
-                    alt="video"
-                    quality={100}
-                  />
-                </div>
-              </div>
-
-              <span className="text-center text-xl md:text-2xl font-bold">
-                <b>ONLINE PREMIÉRA - 16.října 2022 - 19:00</b>
-              </span>
+      <div className=" bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-0 ">
+        <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
+        <div className="flex flex-col max-w-6xl h-[100vh]  justify-end mx-auto ">
+          <div className="flex flex-col">
+            <div className="">
+              <Image
+                src={"/assets/logo-footer.png"}
+                alt="logo"
+                width={544}
+                height={75}
+                quality={95}
+              />
             </div>
-            <div className="text-center md:text-lg font-medium">
-              <Countdown date={new Date(2022, 9, 16, 19)} renderer={renderer} />
-            </div>
+            <div className="text-[29px] mt-4">{translate("indexSubtitle")}</div>
 
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-y-6 justify-center filter max-w-5xl mx-auto mt-8 mb-12 md:mb-8">
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/assets/huawei.svg"
-                  width={150}
-                  height={50}
-                  alt="huawei"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/assets/zeme-kvet.png"
-                  width={150}
-                  height={85}
-                  alt="zeměkvět"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/assets/nadace.png"
-                  width={150}
-                  height={62}
-                  alt="nadace Ivana Dejmala"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/assets/film-crew.png"
-                  width={80}
-                  height={80}
-                  alt="film crew"
-                />
-              </div>
-
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/assets/gumotex.png"
-                  width={150}
-                  height={57}
-                  alt="gumotex"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="fixed bottom-0 right-0 left-0 bg-white">
-          <div className="bg-[#CC8800] flex justify-center">
-            <span className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between w-full px-4 pt-4 md:pt-0 text-md md:text-xl items-center font-bold text-center">
-              Získej odkaz na film hodinu před premiérou
-              <div className="flex justify-end items-center relative py-4">
-                {success ? (
-                  <div className="rounded-xl h-10 bg-white text-[#CC8800] px-3 items-center flex flex-row">
-                    <span className="mr-3">Odkaz je tvůj - už brzy</span>
+            <div className="flex flex-row gap-x-[10px] items-center text-[21px] font-bold mt-7 mb-48 ">
+              <Link href="/">
+                <div className="flex flex-row px-6 py-3  bg-[#BCAE7E] rounded-[5px] items-center">
+                  <span className="flex mr-[10px]">
                     <Image
-                      src="/assets/check.svg"
-                      width={32}
-                      height={32}
-                      alt="done"
+                      src="/assets/play.svg"
+                      width={30}
+                      height={30}
+                      alt="play"
                     />
-                  </div>
-                ) : (
-                  <div className="flex flex-col">
-                    <form
-                      onSubmit={handleSubmit}
-                      className="flex justify-end items-center"
-                    >
-                      <input
-                        className={
-                          "border-2 rounded-xl  h-10 bg-transparent pl-4 pr-12 placeholder:text-white font-normal " +
-                          (loading ? "opacity-50" : "")
-                        }
-                        placeholder="zadej svůj email"
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                        disabled={loading}
-                      />
-
-                      <button
-                        className="absolute w-10 mr-2 flex items-center cursor-pointer"
-                        onClick={handleSubmit}
-                        type="submit"
-                      >
-                        <Image
-                          src="/assets/arrow-right.svg"
-                          width={32}
-                          height={32}
-                          alt="submit"
-                        />
-                      </button>
-                    </form>
-                    {invalid ? (
-                      <span className="text-xs text-red-700 mt-1">
-                        Neplatný formát emailu
-                      </span>
-                    ) : (
-                      <div />
-                    )}
-                  </div>
-                )}
+                  </span>
+                  <span>Trailer</span>
+                </div>
+              </Link>
+              <Link href="/support">
+                <div className="flex flex-row px-6 py-3  bg-[#BCAE7E] rounded-[5px] bg-opacity-70 cursor-pointer">
+                  <span className="flex mr-[10px]">
+                    <Image
+                      src="/assets/elephant_icon.svg"
+                      width={30}
+                      height={30}
+                      alt="elephant"
+                    />
+                  </span>
+                  <span>Support</span>
+                </div>
+              </Link>
+              <div className="flex pl-2 cursor-pointer">
+                <Image
+                  src="/assets/share_icon.svg"
+                  width={95}
+                  height={22}
+                  alt="share"
+                />
               </div>
-            </span>
-          </div>
-          <div className="text-black flex justify-center">
-            <span className="max-w-6xl mx-auto flex flex-col md:flex-row w-full px-4 py-3 text-md md:text-xl justify-between items-center">
-              <span className="h-10 flex items-center text-center">
-                Stav se na veřejné promítání dokumentu
-              </span>
-              <span className="underline ">
-                <a
-                  href="https://fb.me/e/2EuWI9dXY"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  PRAHA
-                </a>
-                <span className="ml-6">
-                  <a
-                    href="https://fb.me/e/2Y4rS5vJr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    OLOMOUC
-                  </a>
-                </span>
-              </span>
-            </span>
+            </div>
           </div>
         </div>
       </div>
+      <div className="flex flex-col max-w-6xl mx-auto">
+        <div className="flex flex-row border-b py-7">
+          Veřejná premiéra dokumentu
+        </div>
+        <div className="flex flex-row border-b py-7 ">
+          Veřejná premiéra dokumentu
+        </div>
+      </div>
+
+      <div className="flex flex-col max-w-6xl mx-auto py-20 px-9">
+        <div className="h-[642px] w-full bg-slate-400 bg-[url('/assets/index_bg.webp')] bg-cover"></div>
+      </div>
+
+      <div className="bg-white">
+        <div className="flex flex-col max-w-6xl mx-auto bg-white text-center">
+          <div className="text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28">
+            O arthurovi
+          </div>
+          <div className="text-[#396729] text-[28px] leading-0 mb-28">
+            Save-Elephants and Tsoulou
+          </div>
+          <div className="flex flex-col gap-y-[90px] mb-80">
+            <HomePageRow />
+            <HomePageRow reversed />
+            <HomePageRow />
+            <div className="text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28">
+              O dokumentu
+            </div>
+            <HomePageRow reversed />
+          </div>
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 }
