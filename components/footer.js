@@ -85,8 +85,20 @@ export default function Footer() {
         <div className="px-20">
           <div className="h-[1px] w-full bg-[#033F47]  mt-24 "></div>
         </div>
-        <div className="font-sans font-thin text-xs opacity-50 mt-7 mb-6">
-          DESIGNED BY:
+        <div className="flex flex-row font-sans text-slate-200 font-thin text-xs opacity-50 mt-7 mb-6 mx-auto gap-x-6">
+          <span>
+            DESIGNED BY:{" "}
+            <a href="https://martinsindelar.myportfolio.com">
+              <b>Martin Sindelar</b>
+            </a>
+          </span>
+
+          <span>
+            DEVELOPED BY:{" "}
+            <a href="https://blackpoint.dev">
+              <b>Black Point</b>
+            </a>
+          </span>
         </div>
       </div>
     </div>

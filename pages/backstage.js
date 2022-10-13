@@ -23,7 +23,7 @@ export default function Backstage() {
       </div>
       <div className="min-h-80">
         <div className="flex max-w-6xl mx-auto">
-          <div class="grid grid-cols-4 gap-x-8 gap-y-16  w-full">
+          <div class="relative grid grid-cols-4 gap-x-8 gap-y-16  w-full -top-40">
             <ProfileItem />
             <ProfileItem />
             <ProfileItem />

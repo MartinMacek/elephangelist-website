@@ -82,25 +82,41 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col max-w-6xl mx-auto py-20 px-9">
-        <div className="h-[642px] w-full bg-slate-400 bg-[url('/assets/index_bg.webp')] bg-cover"></div>
+        <div className="h-[642px] w-full bg-slate-400 bg-[url('/assets/home_main.webp')] bg-cover"></div>
       </div>
 
       <div className="bg-white">
         <div className="flex flex-col max-w-6xl mx-auto bg-white text-center">
-          <div className="text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28">
-            O arthurovi
+          <div className="text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28 uppercase">
+            {translate("aboutArthur")}
           </div>
           <div className="text-[#396729] text-[28px] leading-0 mb-28">
-            Save-Elephants and Tsoulou
+            {translate("aboutArthurSubtitle")}
           </div>
           <div className="flex flex-col gap-y-[90px] mb-80">
-            <HomePageRow />
-            <HomePageRow reversed />
-            <HomePageRow />
-            <div className="text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28">
-              O dokumentu
-            </div>
-            <HomePageRow reversed />
+            <HomePageRow
+              text={translate("homeText1")}
+              img="bg-[url('/assets/home_img1.webp')]"
+            />
+            <HomePageRow
+              reversed
+              text={translate("homeText2")}
+              img="bg-[url('/assets/home_img2.webp')]"
+            />
+            <HomePageRow
+              text={translate("homeText3")}
+              img="bg-[url('/assets/home_img3.webp')]"
+            />
+            <HomePageRow
+              reversed
+              text={translate("homeText4")}
+              img="bg-[url('/assets/home_img4.webp')]"
+            />
+            <HomePageRow
+              text={translate("homeText5")}
+              img="bg-[url('/assets/home_img5.webp')]"
+            />
+            <HomePageRow reversed text={translate("homeText6")} />
           </div>
         </div>
       </div>
