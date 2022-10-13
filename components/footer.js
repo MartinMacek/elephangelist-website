@@ -140,7 +140,7 @@ export default function Footer() {
             quality={95}
           />
         </div>
-        <div className="flex flex-row mx-auto mt-11 text-[25px] text-[#CCDADC] gap-x-20">
+        <div className="hidden sm:flex flex-row mx-auto mt-11 text-[25px] text-[#CCDADC] gap-x-20">
           <div
             className={
               " underline-offset-4 " + (router.asPath == "/" && "underline")
@@ -173,7 +173,7 @@ export default function Footer() {
             <Link href="/contact">{translate("contact")}</Link>
           </div>
         </div>
-        <div className="px-20">
+        <div className="invisible sm:visible px-20">
           <div className="h-[1px] w-full bg-[#033F47]  mt-24 "></div>
         </div>
         <div className="flex flex-row font-sans text-slate-200 font-thin text-xs opacity-50 mt-7 mb-6 mx-auto gap-x-6">

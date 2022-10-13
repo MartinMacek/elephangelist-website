@@ -26,7 +26,7 @@ export default function Home() {
     },
   ];
   return (
-    <>
+    <div className="overflow-hidden">
       <Head>
         <title>The Elephangelist - Arthur F. Sniegon</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -143,6 +143,6 @@ export default function Home() {
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 }

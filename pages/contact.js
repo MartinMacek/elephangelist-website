@@ -6,7 +6,7 @@ import { useTranslation } from "../utils/translateHook";
 export default function Contact() {
   const translate = useTranslation().translate;
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <div className=" bg-[url('/assets/contact_bg.webp')] bg-cover bg-center z-0 ">
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>

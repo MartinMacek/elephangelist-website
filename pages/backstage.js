@@ -8,7 +8,7 @@ export default function Backstage() {
   const translate = useTranslation().translate;
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <div className=" bg-[url('/assets/backstage_bg.webp')] bg-cover bg-center z-0 ">
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
@@ -23,7 +23,7 @@ export default function Backstage() {
       </div>
       <div className="min-h-80">
         <div className="flex max-w-6xl mx-auto">
-          <div class="relative grid grid-cols-4 gap-x-8 gap-y-16  w-full -top-40">
+          <div class="relative grid grid-cols-2 sm:grid-cols-4 gap-x-8 gap-y-16  w-full -top-40">
             <ProfileItem />
             <ProfileItem />
             <ProfileItem />

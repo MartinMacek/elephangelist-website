@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div
       className={
-        " absolute top-0 left-0 right-0 flex flex-row mx-[70px] mt-[42px] border-b text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] " +
+        " absolute top-0 left-0 right-0 flex flex-row mx-5 sm:mx-[70px] mt-[42px] sm:border-b text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] " +
         (router.asPath == "/contact" && " invert")
       }
     >
@@ -27,7 +27,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="flex flex-row gap-x-20  ">
+        <div className="hidden sm:flex flex-row gap-x-20  ">
           <div
             className={
               " underline-offset-4 " + (router.asPath == "/" && "underline")
@@ -61,7 +61,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div>
+        <div className="hidden sm:block">
           <Link href={router.route} locale="cs">
             <span
               className={
