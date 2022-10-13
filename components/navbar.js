@@ -7,7 +7,12 @@ export default function Navbar() {
   const router = useRouter();
   const translate = useTranslation().translate;
   return (
-    <div className=" absolute top-0 left-0 right-0 flex flex-row mx-[70px] mt-[42px] border-b text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue']">
+    <div
+      className={
+        " absolute top-0 left-0 right-0 flex flex-row mx-[70px] mt-[42px] border-b text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] " +
+        (router.asPath == "/contact" && " invert")
+      }
+    >
       <div className=" pb-7 flex flex-row justify-between w-full items-center">
         <div className="flex h-7">
           <Link href="/">

@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <div className="flex flex-col w-full bg-white text-[#23211E] font-['Bebas_Neue'] text-center text-[40px] ">
-      Generální partner projektu
+      {translate("generalPartner")}
       <div className="flex mx-auto mt-9">
         <Image
           src="/assets/huawei.svg"
@@ -18,15 +18,106 @@ export default function Footer() {
           height={109}
         />
       </div>
-      <div className="flex flex-col w-full text-center bg-[url('/assets/footer_bg.webp')] bg-cover bg-bottom">
-        <span className="mt-20 ">PARTNEŘI PROJEKTU</span>
+      <span className="mt-20 uppercase">{translate("mainPartners")}</span>
+      <div className="flex flex-wrap justify-center mx-auto mt-11 gap-12  max-w-5xl">
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+      </div>
+      <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
+      <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
+        <Image
+          src="/partners/ekonews.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image src="/partners/cc.svg" alt="partner" width={200} height={44} />
+      </div>
+      <div className="flex flex-col w-full text-center bg-[url('/assets/footer_bg.webp')] bg-cover bg-center">
+        <span className="mt-20 uppercase">{translate("withSupport")}</span>
         <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
-          <Image
-            src="/assets/huawei.svg"
-            alt="partner"
-            width={200}
-            height={44}
-          />
           <Image
             src="/assets/huawei.svg"
             alt="partner"

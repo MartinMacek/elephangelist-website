@@ -1,7 +1,10 @@
+import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
+import { useTranslation } from "../utils/translateHook";
 
 export default function Contact() {
+  const translate = useTranslation().translate;
   return (
     <div>
       <Navbar />
@@ -10,7 +13,7 @@ export default function Contact() {
         <div className="min-h-screen">
           <div className=" flex flex-col max-w-4xl  mx-auto h-[70vh] text-[#23211E] z-10 ">
             <div className="text-[90px] font-['Bebas_Neue'] text-center font-normal my-auto">
-              ZAJÍMÁ VÁS VÍCE NEBO MÁTE ZÁJEM O SPOLUPRÁCI?
+              {translate("contactTitle")}
             </div>
           </div>
           <div className="flex flex-row max-w-6xl mx-auto divide-x mt-2">
@@ -57,7 +60,13 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="h-60 "></div>
+      <div className="h-10"></div>
+
+      <div className="relative h-72 bg-white">
+        <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
+          <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
+        </div>
+      </div>
       <Footer />
     </div>
   );
