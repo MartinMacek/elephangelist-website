@@ -17,12 +17,14 @@ export default function Home() {
       place: "Kino Dlabačov, Praha",
       date: "20.října 2022",
       time: "18:00",
+      url: "https://fb.me/e/2EuWI9dXY",
     },
     {
       name: "Veřejné promítání filmu",
       place: "Pevnost poznání, Olomouc",
       date: "21.října 2022",
       time: "18:00",
+      url: "https://fb.me/e/2Y4rS5vJr",
     },
   ];
   return (
@@ -36,7 +38,7 @@ export default function Home() {
 
       <div className=" bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-0 ">
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
-        <div className="flex flex-col max-w-6xl h-[100vh]  justify-end mx-auto ">
+        <div className="flex flex-col max-w-7xl  h-[100vh]  justify-end mx-auto ">
           <div className="flex flex-col">
             <div className="">
               <Image
@@ -73,7 +75,7 @@ export default function Home() {
                       alt="elephant"
                     />
                   </span>
-                  <span>Support</span>
+                  <span>{translate("support")}</span>
                 </div>
               </Link>
               <div className="flex pl-2 cursor-pointer">
@@ -88,7 +90,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col max-w-6xl mx-auto">
+      <div className="flex flex-col max-w-7xl mx-auto">
         {events.map((item) => (
           <EventItem
             key={item.name}
@@ -96,6 +98,7 @@ export default function Home() {
             place={item.place}
             date={item.date}
             time={item.time}
+            url={item.url}
           />
         ))}
       </div>

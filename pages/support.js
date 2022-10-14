@@ -3,6 +3,7 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import SupportItem from "../components/support-item";
+import YoutubeEmbed from "../components/video-embed";
 import { useTranslation } from "../utils/translateHook";
 
 export default function Support() {
@@ -17,7 +18,7 @@ export default function Support() {
         <div className="absolute top-0 left-0 right-0 bg-[url('/assets/support_bg.webp')] bg-cover bg-top h-[754px] z-0"></div>
       </div>
       <Navbar />
-      <div className="flex flex-col max-w-6xl mx-auto pt-64 text-[#F5F3E1] min-h-screen">
+      <div className="flex flex-col max-w-7xl mx-auto pt-64 text-[#F5F3E1] min-h-screen">
         <div className="text-[90px] font-['Bebas_Neue'] text-center font-normal z-10 ">
           {translate("supportTitle")}
         </div>
@@ -43,7 +44,7 @@ export default function Support() {
         </div>
       </div>
 
-      <div className="flex flex-col max-w-5xl mx-auto  text-[#F5F3E1] pb-10">
+      <div className="flex flex-col max-w-7xl mx-auto  text-[#F5F3E1] pb-10">
         <div className="text-[90px] font-['Bebas_Neue'] text-center font-normal  ">
           {translate("whoSupported")}
         </div>
@@ -56,7 +57,7 @@ export default function Support() {
           <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
         </div>
         <div className="relative flex flex-col max-w-6xl mx-auto pb-20  px-9 w-full z-10">
-          <div className="h-[642px] w-full bg-slate-400 bg-[url('/assets/index_bg.webp')] bg-cover"></div>
+          <YoutubeEmbed embedId="dQw4w9WgXcQ" />
         </div>
       </div>
       <Footer />

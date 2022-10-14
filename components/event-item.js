@@ -12,7 +12,7 @@ export default function EventItem(props) {
       <span>{props.date}</span>
       <span>{props.time}</span>
       <span className="flex flex-row gap-x-5">
-        <Link href="/">
+        <a href={props.url}>
           <div className="flex flex-row px-4 py-2  bg-[#BCAE7E] rounded-[5px] items-center cursor-pointer">
             <span className="flex mr-[10px]">
               <Image
@@ -26,7 +26,7 @@ export default function EventItem(props) {
               {translate("moreInfo")}
             </span>
           </div>
-        </Link>
+        </a>
         <Link href="/">
           <div className="flex flex-row px-10  py-2 border border-[#BCAE7E] rounded-[5px] items-center cursor-pointer">
             <span className="flex mr-[10px]"></span>

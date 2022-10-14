@@ -21,89 +21,78 @@ export default function Footer() {
       <span className="mt-20 uppercase">{translate("mainPartners")}</span>
       <div className="flex flex-wrap justify-center mx-auto mt-11 gap-12  max-w-5xl">
         <Image
-          src="/partners/ekonews.webp"
+          src="/partners/zemekvet.svg"
+          alt="partner"
+          width={154}
+          height={154}
+        />
+        <Image
+          src="/partners/santovka.webp"
           alt="partner"
           width={154}
           height={44}
         />
         <Image
-          src="/partners/ekonews.webp"
+          src="/partners/viagood.svg"
+          alt="partner"
+          width={154}
+          height={154}
+        />
+        <Image src="/partners/dav.webp" alt="partner" width={154} height={44} />
+        <Image
+          src="/partners/nadace.webp"
+          alt="partner"
+          width={154}
+          height={100}
+        />
+        <Image
+          src="/partners/film-crew.webp"
+          alt="partner"
+          width={150}
+          height={150}
+        />
+        <Image
+          src="/partners/gumotex.webp"
+          alt="partner"
+          width={154}
+          height={44}
+        />
+        <Image src="/partners/avp.webp" alt="partner" width={154} height={44} />
+        <Image
+          src="/partners/cmtf.webp"
           alt="partner"
           width={154}
           height={44}
         />
         <Image
-          src="/partners/ekonews.webp"
+          src="/partners/pevnost.webp"
           alt="partner"
           width={154}
           height={44}
         />
         <Image
-          src="/partners/ekonews.webp"
+          src="/partners/donio.webp"
           alt="partner"
           width={154}
           height={44}
         />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/ekonews.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
+        <Image src="/partners/aso.webp" alt="partner" width={154} height={44} />
+        <div className="my-auto">
+          <Image
+            src="/partners/wesfield.webp"
+            alt="partner"
+            width={154}
+            height={154}
+          />
+        </div>
+        <div className="my-auto">
+          <Image
+            src="/partners/fotopast.webp"
+            alt="partner"
+            width={154}
+            height={44}
+          />
+        </div>
       </div>
       <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
       <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
@@ -119,13 +108,13 @@ export default function Footer() {
         <span className="mt-20 uppercase">{translate("withSupport")}</span>
         <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
           <Image
-            src="/assets/huawei.svg"
+            src="/partners/nnoz.webp"
             alt="partner"
             width={200}
             height={44}
           />
           <Image
-            src="/assets/huawei.svg"
+            src="/partners/kloktex.webp"
             alt="partner"
             width={200}
             height={44}
@@ -174,7 +163,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="invisible sm:visible px-20">
-          <div className="h-[1px] w-full bg-[#033F47]  mt-24 "></div>
+          <div className="h-[1px] w-full bg-[#F5F3E1] opacity-20 mt-24 "></div>
         </div>
         <div className="flex flex-row font-sans text-slate-200 font-thin text-xs opacity-50 mt-7 mb-6 mx-auto gap-x-6">
           <span>

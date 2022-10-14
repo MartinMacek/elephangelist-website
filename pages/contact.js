@@ -17,44 +17,44 @@ export default function Contact() {
             </div>
           </div>
           <div className="flex flex-row max-w-6xl mx-auto divide-x mt-2">
-            <div className="w-1/3">
-              <div className="flex flex-col text-2xl w-fit mx-auto">
-                <div className="text-[36px] font-['Bebas_Neue']">
+            <div className="w-1/4">
+              <div className="flex flex-col text-2xl w-fit mx-auto px-6">
+                <div className="text-[36px] font-['Bebas_Neue'] mt-8">
                   Save-Elephants, z.s.
                 </div>
-                <div>Adresa</div>
-                <div>IČO</div>
-                <div>Odkaz na transparentní účet</div>
+                <div>Lyžbická 1193 - Třinec, 739 61</div>
+                <div>IČO: 01325388</div>
+                <div>Transparentní účet: 4200409386/0100</div>
               </div>
             </div>
-            <div className="w-1/3">
-              <div className="flex flex-col text-2xl w-fit mx-auto">
-                <div className="text-[36px] font-['Bebas_Neue']">
+            <div className="w-1/4">
+              <div className="flex flex-col text-2xl w-fit mx-auto px-4">
+                <div className="text-[36px] font-['Bebas_Neue'] mt-8">
                   Arthur Sniegon
                 </div>
-                <div>Email@email.cz</div>
-                <div>+420 777 777 777</div>
-                <div>@instagram </div>
+                <div>info@save-elephants.org</div>
+                <div>@saveelephantscz </div>
               </div>
             </div>
-            <div className="w-1/3">
-              <div className="flex flex-col text-2xl w-fit mx-auto">
+            <div className="w-1/4">
+              <div className="flex flex-col text-2xl w-fit mx-auto px-4">
+                <div className="text-base mb-2 ">PRODUKCE FILMU</div>
                 <div className="text-[36px] font-['Bebas_Neue']">
                   Lukáš Hodis
                 </div>
                 <div>Email@email.cz</div>
-                <div>+420 777 777 777</div>
-                <div>@instagram </div>
+                <div>lhodis@seznam.cz</div>
+                <div>@lukashodis </div>
               </div>
             </div>
-            <div className="w-1/3">
-              <div className="flex flex-col text-2xl w-fit mx-auto">
+            <div className="w-1/4">
+              <div className="flex flex-col text-2xl w-fit mx-auto px-9">
+                <div className="text-base mb-2 ">MÉDIA & PR</div>
                 <div className="text-[36px] font-['Bebas_Neue']">
                   Martina Vysloužilová
                 </div>
-                <div>Email@email.cz</div>
-                <div>+420 777 777 777</div>
-                <div>@instagram </div>
+                <div>martina.vyslouzilova@upol.cz</div>
+                <div>+420 603 359 126</div>
               </div>
             </div>
           </div>

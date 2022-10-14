@@ -2,7 +2,7 @@ export default function HomePageRow(props) {
   return (
     <div
       className={
-        "flex text-[#23211E] text-base text-left gap-x-12 flex-col  " +
+        "flex text-[#23211E] text-lg  text-left gap-x-12 flex-col  " +
         (props.reversed ? "sm:flex-row-reverse" : "sm:flex-row")
       }
     >
