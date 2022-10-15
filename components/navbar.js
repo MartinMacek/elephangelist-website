@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div
       className={
-        " absolute top-0 left-0 right-0 flex flex-row mx-5 sm:mx-[70px] mt-[42px] sm:border-b border-[#F5F3E1] border-opacity-20 text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] " +
+        " absolute top-0 left-0 right-0 flex flex-row mx-5 md:mx-[70px] mt-[42px] sm:border-b border-[#F5F3E1] border-opacity-20 text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] " +
         (router.asPath == "/contact" && " invert")
       }
     >
@@ -59,6 +59,9 @@ export default function Navbar() {
           >
             <Link href="/contact">{translate("contact")}</Link>
           </div>
+        </div>
+        <div className="flex lg:hidden w-[40px] h-[40px] p-2">
+          <Image src="/assets/hamburger.svg" width={32} height={8} alt="menu" />
         </div>
 
         <div className="hidden lg:block">

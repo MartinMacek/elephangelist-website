@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col w-full bg-white text-[#23211E] font-['Bebas_Neue'] text-center text-[40px] ">
       {translate("generalPartner")}
-      <div className="flex mx-auto mt-9">
+      <div className="flex mx-auto mt-9 px-6 sm:px-2">
         <Image
           src="/assets/huawei.svg"
           alt="partner"
@@ -19,7 +19,7 @@ export default function Footer() {
         />
       </div>
       <span className="mt-20 uppercase">{translate("mainPartners")}</span>
-      <div className="flex flex-wrap justify-center mx-auto mt-11 sm:gap-x-12  max-w-5xl">
+      <div className="flex flex-wrap justify-center mx-auto mt-11 gap-x-4 sm:gap-x-12  max-w-5xl px-4">
         <Image
           src="/partners/zemekvet.svg"
           alt="partner"
@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
       </div>
       <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
-      <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
+      <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
         <Image
           src="/partners/ekonews.webp"
           alt="partner"
@@ -141,7 +141,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col w-full text-center bg-[url('/assets/footer_bg.webp')] bg-cover bg-center">
         <span className="mt-20 uppercase">{translate("withSupport")}</span>
-        <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
+        <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
           <div className="my-auto">
             <Image
               src="/partners/nnoz.webp"
@@ -159,7 +159,7 @@ export default function Footer() {
             />
           </div>
         </div>
-        <div className="flex mx-auto mt-[60vh] sm:mt-[80vh]">
+        <div className="flex mx-auto mt-[60vh] sm:mt-[80vh] px-8">
           <Image
             src={"/assets/logo-footer.png"}
             alt="logo"

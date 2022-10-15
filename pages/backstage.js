@@ -12,11 +12,11 @@ export default function Backstage() {
       <Navbar />
       <div className=" bg-[url('/assets/backstage_bg.webp')] bg-cover bg-center z-0 ">
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
-        <div className="flex flex-col max-w-5xl min-h-screen mx-auto pt-60 text-[#F5F3E1]">
-          <div className="text-[90px] font-['Bebas_Neue'] text-center font-normal  ">
+        <div className="flex flex-col max-w-5xl min-h-screen mx-auto pt-36  sm:pt-60 text-[#F5F3E1]">
+          <div className="text-[55px] sm:text-[90px] font-['Bebas_Neue'] text-center font-normal  ">
             {translate("backstageTitle")}
           </div>
-          <div className="text-[25px] text-center mt-1 ">
+          <div className="text-sm sm:text-[25px] sm:leading-9 text-center mt-1  px-7">
             {translate("backstageDescription")}
           </div>
         </div>

@@ -18,11 +18,11 @@ export default function Support() {
         <div className="absolute top-0 left-0 right-0 bg-[url('/assets/support_bg.webp')] bg-cover bg-top h-[754px] z-0"></div>
       </div>
       <Navbar />
-      <div className="flex flex-col max-w-7xl mx-auto pt-64 text-[#F5F3E1] min-h-screen">
-        <div className="text-[90px] font-['Bebas_Neue'] text-center font-normal z-10 ">
+      <div className="flex flex-col max-w-7xl mx-auto pt-64 text-[#F5F3E1] min-h-screen px-7">
+        <div className="text-[82px] sm:text-[90px] font-['Bebas_Neue'] text-center font-normal z-10 ">
           {translate("supportTitle")}
         </div>
-        <div className="text-[25px] text-center mt-1 z-10">
+        <div className="text-sm sm:text-[25px] sm:leading-9 text-center mt-1 z-10">
           {translate("supportDescription")}
         </div>
         <div className="z-10 flex flex-col md:flex-row gap-12 text-center mt-48 mb-44">
@@ -45,19 +45,19 @@ export default function Support() {
         </div>
       </div>
 
-      <div className="flex flex-col max-w-7xl mx-auto  text-[#F5F3E1] pb-10">
-        <div className="text-[90px] font-['Bebas_Neue'] text-center font-normal  ">
+      <div className="flex flex-col max-w-7xl mx-auto  text-[#F5F3E1] pb-10 px-7">
+        <div className="text-[55px] sm:text-[90px] font-['Bebas_Neue'] text-center font-normal  ">
           {translate("whoSupported")}
         </div>
-        <div className="text-[25px] text-center mt-1 z-10">
+        <div className=" text-sm sm:text-[25px] sm:leading-9 text-center mt-1 z-10">
           {translate("whoSupportedContent")}
         </div>
       </div>
-      <div className="relative bg-white pb-44 ">
+      <div className="relative bg-white pb-3 sm:pb-44 ">
         <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
           <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
         </div>
-        <div className="relative flex flex-col max-w-6xl mx-auto pb-20  px-9 w-full z-10">
+        <div className="relative flex flex-col max-w-6xl mx-auto pb-20  px-7 w-full z-10">
           <YoutubeEmbed embedId="dQw4w9WgXcQ" />
         </div>
       </div>

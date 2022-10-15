@@ -12,7 +12,7 @@ export default function ProfileItem(props) {
       ></div>
       <div className="mt-6 text-[34px] font-['Bebas_Neue']">{props.name}</div>
       <div className="text-xl font-black">{props.position}</div>
-      <div className="text-xl mt-[11px] px-2">{props.bio}</div>
+      <div className="text-sm sm:text-xl mt-[11px] px-4">{props.bio}</div>
     </div>
   );
 }

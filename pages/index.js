@@ -38,7 +38,7 @@ export default function Home() {
 
       <div className=" bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-0 ">
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
-        <div className="flex flex-col max-w-7xl  h-[100vh]  justify-end mx-auto ">
+        <div className="flex flex-col max-w-7xl  h-[100vh]  justify-end mx-auto px-7 ">
           <div className="flex flex-col">
             <div className="">
               <Image
@@ -49,7 +49,9 @@ export default function Home() {
                 quality={95}
               />
             </div>
-            <div className="text-[29px] mt-4">{translate("indexSubtitle")}</div>
+            <div className=" text-sm sm:text-[29px] mt-4 text-center sm:text-left ">
+              {translate("indexSubtitle")}
+            </div>
 
             <div className="flex flex-row gap-x-[10px] items-center text-[21px] font-bold mt-7 mb-48 ">
               <Link href="/">
@@ -78,7 +80,7 @@ export default function Home() {
                   <span>{translate("support")}</span>
                 </div>
               </Link>
-              <div className="flex pl-2 cursor-pointer">
+              <div className="hidden sm:flex pl-2 cursor-pointer">
                 <Image
                   src="/assets/share_icon.svg"
                   width={95}
@@ -90,7 +92,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col max-w-7xl mx-auto">
+      <div className="flex flex-col max-w-7xl mx-auto px-6">
         {events.map((item) => (
           <EventItem
             key={item.name}
@@ -107,14 +109,14 @@ export default function Home() {
         <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
           <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
         </div>
-        <div className="absolute -top-80  right-0 left-0 flex flex-col w-full max-w-6xl mx-auto py-20 px-9 z-30">
-          <div className="h-[642px] w-full bg-slate-400 bg-[url('/assets/home_main.webp')] bg-cover"></div>
+        <div className="absolute -top-40 sm:-top-80  right-0 left-0 flex flex-col w-full max-w-6xl mx-auto py-20 px-9 z-30">
+          <div className="h-96  sm:h-[642px] w-full bg-slate-400 bg-[url('/assets/home_main.webp')] bg-cover"></div>
         </div>
         <div className="flex flex-col max-w-6xl mx-auto mt-80 pt-96 bg-white text-center">
-          <div className="text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28 uppercase">
+          <div className=" text-[50px] sm:text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28 uppercase">
             {translate("aboutArthur")}
           </div>
-          <div className="text-[#396729] text-[28px] leading-0 mb-28">
+          <div className="text-[#396729] text-[16px] sm:text-[28px] leading-0 mb-28">
             {translate("aboutArthurSubtitle")}
           </div>
           <div className="flex flex-col gap-y-[90px] mb-80">
