@@ -19,70 +19,105 @@ export default function Footer() {
         />
       </div>
       <span className="mt-20 uppercase">{translate("mainPartners")}</span>
-      <div className="flex flex-wrap justify-center mx-auto mt-11 gap-12  max-w-5xl">
+      <div className="flex flex-wrap justify-center mx-auto mt-11 sm:gap-x-12  max-w-5xl">
         <Image
           src="/partners/zemekvet.svg"
           alt="partner"
           width={154}
           height={154}
         />
-        <Image
-          src="/partners/santovka.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
+        <div className="my-auto">
+          <Image
+            src="/partners/santovka.webp"
+            alt="partner"
+            height={60}
+            width={154}
+          />
+        </div>
         <Image
           src="/partners/viagood.svg"
           alt="partner"
           width={154}
-          height={154}
+          height={80}
         />
-        <Image src="/partners/dav.webp" alt="partner" width={154} height={44} />
-        <Image
-          src="/partners/nadace.webp"
-          alt="partner"
-          width={154}
-          height={100}
-        />
-        <Image
-          src="/partners/film-crew.webp"
-          alt="partner"
-          width={150}
-          height={150}
-        />
-        <Image
-          src="/partners/gumotex.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image src="/partners/avp.webp" alt="partner" width={154} height={44} />
-        <Image
-          src="/partners/cmtf.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
-        <Image
-          src="/partners/pevnost.webp"
-          alt="partner"
-          width={154}
-          height={44}
-        />
+        <div className="my-auto">
+          <Image
+            src="/partners/dav.webp"
+            alt="partner"
+            width={154}
+            height={35}
+          />
+        </div>
+
+        <div className="my-auto">
+          <Image
+            src="/partners/nadace.webp"
+            alt="partner"
+            width={154}
+            height={43}
+          />
+        </div>
+        <div>
+          <Image
+            src="/partners/film-crew.webp"
+            alt="partner"
+            width={150}
+            height={150}
+          />
+        </div>
+        <div className="my-auto">
+          <Image
+            src="/partners/gumotex.webp"
+            alt="partner"
+            width={154}
+            height={58.52}
+          />
+        </div>
+        <div className="my-auto">
+          <Image
+            src="/partners/avp.webp"
+            alt="partner"
+            width={154}
+            height={73}
+          />
+        </div>
+        <div className="my-auto">
+          <Image
+            src="/partners/cmtf.webp"
+            alt="partner"
+            width={154}
+            height={70.5}
+          />
+        </div>
+        <div className="my-auto">
+          <Image
+            src="/partners/pevnost.webp"
+            alt="partner"
+            width={154}
+            height={76.5}
+          />
+        </div>
         <Image
           src="/partners/donio.webp"
           alt="partner"
           width={154}
-          height={44}
+          height={154}
         />
-        <Image src="/partners/aso.webp" alt="partner" width={154} height={44} />
+        <div className="my-auto">
+          <Image
+            src="/partners/aso.webp"
+            alt="partner"
+            width={154}
+            height={109}
+          />
+        </div>
+
         <div className="my-auto">
           <Image
             src="/partners/wesfield.webp"
             alt="partner"
             width={154}
-            height={154}
+            height={92.5}
           />
         </div>
         <div className="my-auto">
@@ -90,7 +125,7 @@ export default function Footer() {
             src="/partners/fotopast.webp"
             alt="partner"
             width={154}
-            height={44}
+            height={34.8}
           />
         </div>
       </div>
@@ -107,18 +142,22 @@ export default function Footer() {
       <div className="flex flex-col w-full text-center bg-[url('/assets/footer_bg.webp')] bg-cover bg-center">
         <span className="mt-20 uppercase">{translate("withSupport")}</span>
         <div className="flex flex-row mx-auto mt-11 gap-x-12 ">
-          <Image
-            src="/partners/nnoz.webp"
-            alt="partner"
-            width={200}
-            height={44}
-          />
-          <Image
-            src="/partners/kloktex.webp"
-            alt="partner"
-            width={200}
-            height={44}
-          />
+          <div className="my-auto">
+            <Image
+              src="/partners/nnoz.webp"
+              alt="partner"
+              width={154}
+              height={54}
+            />
+          </div>
+          <div className="my-auto">
+            <Image
+              src="/partners/kloktex.webp"
+              alt="partner"
+              width={154}
+              height={41.6}
+            />
+          </div>
         </div>
         <div className="flex mx-auto mt-[60vh] sm:mt-[80vh]">
           <Image

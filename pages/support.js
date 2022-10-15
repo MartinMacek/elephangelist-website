@@ -27,14 +27,15 @@ export default function Support() {
         </div>
         <div className="z-10 flex flex-col md:flex-row gap-12 text-center mt-48 mb-44">
           <SupportItem
-            title={translate("supportTile1Title")}
-            desc={translate("supportTile1Description")}
-            image="bg-[url('/assets/support1.webp')]"
-          />
-          <SupportItem
             title={translate("supportTile2Title")}
             desc={translate("supportTile2Description")}
             image="bg-[url('/assets/support2.webp')]"
+          />
+          <SupportItem
+            title={translate("supportTile1Title")}
+            desc={translate("supportTile1Description")}
+            image="bg-[url('/assets/support1.webp')]"
+            url="https://www.donio.cz/elephangelist"
           />
           <SupportItem
             title={translate("supportTile3Title")}

@@ -23,30 +23,35 @@ export default function Backstage() {
       </div>
       <div className="min-h-80">
         <div className="flex max-w-6xl mx-auto">
-          <div class="relative grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-16  w-full -top-20">
+          <div className="relative grid grid-cols-1 sm:grid-cols-3 gap-x-10 gap-y-16  w-full -top-20">
             <ProfileItem
               name="Jakub Chlouba"
               position="Režisér, DOP"
+              img="bg-[url('/team/kuba.webp')]"
               bio="Filmový režisér se zkušenostmi s mezinárodními projekty. Specializuje se na dokumentární tvorbu a zachycení jedinečných příběhů, které mohou diváky motivovat k akci. Kromě režie si vzal v projektu na starost i střih, color-grading a sound design."
             />
             <ProfileItem
               name="Radek Karko"
               position="Kameraman a fotograf"
+              img="bg-[url('/team/radek.webp')]"
               bio="Přes tvorbu pro velké české i mezinárodní značky se postupně dostal až k fotografování a filmování divokých zvířat. Jako kameraman a wildlife fotograf stojí za doprovodnými záběry, snímky zvířat a samotného zákulisí natáčení v Kongu."
             />
             <ProfileItem
               name="Lukáš Hodis"
               position="Producent"
+              img="bg-[url('/team/lukas.webp')]"
               bio="Produkci se věnuje od roku 2019. Loni stál za úspěšným dokumentem “Nitěnky“, který upozornil na téma předsudků ve společnosti. V rámci projektu má na starosti fundraising, propagaci a organizaci týmu."
             />
             <ProfileItem
               name="David Alexa"
               position="Produkční a konzultant"
+              img=" bg-[url('/team/david.webp')]"
               bio="Procestoval všechny kontinenty světa, kde viděl globální ekologické problémy na vlastní kůži. Nyní je konzultace udržitelnosti firem jeho povoláním. Na projektu se podílí svou odborností v rámci obsahu, produkce a komunikace."
             />
             <ProfileItem
               name="Martina Vysloužilová"
               position="Mediální zástupkyně"
+              img="bg-[url('/team/martina.webp')]"
               bio="V oblasti komunikace s médii se pohybuje přes 10 let. Dříve byla redaktorkou České televize. Zkušenosti s PR má jak z redakční činnosti, tak i v zastupování jednotlivých projektů, například filmový festival AFO. V rámci dokumentu má na starost mediální komunikaci a přípravu výstupů."
             />
             <ProfileItem

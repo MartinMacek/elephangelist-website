@@ -16,7 +16,7 @@ export default function Contact() {
               {translate("contactTitle")}
             </div>
           </div>
-          <div className="flex flex-row max-w-6xl mx-auto divide-x mt-2">
+          <div className="relative flex flex-row max-w-6xl mx-auto divide-x mt-2 z-20">
             <div className="w-1/4">
               <div className="flex flex-col text-2xl w-fit mx-auto px-6">
                 <div className="text-[36px] font-['Bebas_Neue'] mt-8">

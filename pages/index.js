@@ -140,7 +140,11 @@ export default function Home() {
               text={translate("homeText5")}
               img="bg-[url('/assets/home_img5.webp')]"
             />
-            <HomePageRow reversed text={translate("homeText6")} />
+            <HomePageRow
+              reversed
+              text={translate("homeText6")}
+              img="bg-[url('/assets/home_img6.webp')]"
+            />
           </div>
         </div>
       </div>
