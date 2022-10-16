@@ -156,60 +156,12 @@ export default function Home() {
         <div className="fixed bottom-0 right-0 left-0 bg-white">
           <div className="bg-[#CC8800] flex justify-center">
             <span className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between w-full px-4 pt-4 md:pt-0 text-md md:text-xl items-center font-bold text-center">
-              Získej odkaz na film hodinu před premiérou
-              <div className="flex justify-end items-center relative py-4">
-                {success ? (
-                  <div className="rounded-xl h-10 bg-white text-[#CC8800] px-3 items-center flex flex-row">
-                    <span className="mr-3">Odkaz je tvůj - už brzy</span>
-                    <Image
-                      src="/assets/check.svg"
-                      width={32}
-                      height={32}
-                      alt="done"
-                    />
-                  </div>
-                ) : (
-                  <div className="flex flex-col">
-                    <form
-                      onSubmit={handleSubmit}
-                      className="flex justify-end items-center"
-                    >
-                      <input
-                        className={
-                          "border-2 rounded-xl  h-10 bg-transparent pl-4 pr-12 placeholder:text-white font-normal " +
-                          (loading ? "opacity-50" : "")
-                        }
-                        placeholder="zadej svůj email"
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                        disabled={loading}
-                      />
-
-                      <button
-                        className="absolute w-10 mr-2 flex items-center cursor-pointer"
-                        onClick={handleSubmit}
-                        type="submit"
-                      >
-                        <Image
-                          src="/assets/arrow-right.svg"
-                          width={32}
-                          height={32}
-                          alt="submit"
-                        />
-                      </button>
-                    </form>
-                    {invalid ? (
-                      <span className="text-xs text-red-700 mt-1">
-                        Neplatný formát emailu
-                      </span>
-                    ) : (
-                      <div />
-                    )}
-                  </div>
-                )}
-              </div>
+              Podpořte Arthura v boji za ochranu zvířat
+              <a href="https://www.donio.cz/elephangelist">
+                <div className="border-2 px-10 py-2 my-2 rounded-lg">
+                  Přejít na sbírku
+                </div>
+              </a>
             </span>
           </div>
           <div className="text-black flex justify-center">
