@@ -48,7 +48,7 @@ export default function Home() {
     }
   }
 
-  const Completionist = () => <span>Odvysíláno!</span>;
+  const Completionist = () => <span>Premiéra už za malou chvíli</span>;
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
