@@ -61,6 +61,12 @@ export default function Backstage() {
               img="bg-[url('/team/martin.webp')] brightness-90"
               bio={translate("martinBio")}
             />
+            <ProfileItem
+              name="Ladislav Loukota"
+              position={translate("ladaTitle")}
+              img="bg-[url('/team/lada.webp')] brightness-90"
+              bio={translate("ladaBio")}
+            />
           </div>
         </div>
       </div>

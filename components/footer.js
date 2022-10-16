@@ -232,21 +232,30 @@ export default function Footer() {
       </div>
       <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
       <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
-        <a
-          href="https://www.ekonews.cz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/partners/ekonews.webp"
-            alt="partner"
-            width={154}
-            height={53}
-          />
-        </a>
-        <a href="https://cc.cz/" target="_blank" rel="noopener noreferrer">
-          <Image src="/partners/cc.svg" alt="partner" width={200} height={44} />
-        </a>
+        <div className="my-auto">
+          <a
+            href="https://www.ekonews.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/partners/ekonews.webp"
+              alt="partner"
+              width={180}
+              height={62}
+            />
+          </a>
+        </div>
+        <div className="my-auto">
+          <a href="https://cc.cz/" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/partners/cc.svg"
+              alt="partner"
+              width={200}
+              height={44}
+            />
+          </a>
+        </div>
       </div>
       <div className="flex flex-col w-full text-center bg-[url('/assets/footer_bg.webp')] bg-cover bg-center">
         <span className="mt-20 uppercase">{translate("withSupport")}</span>

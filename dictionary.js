@@ -63,7 +63,11 @@ module.exports = {
     martinaBio:
       "She has been working in the field of media communication for over 10 years. She previously used to work as an editor at Czech Television. She has experience in the field of PR both in editorial work and in representing individual projects, such as the AFO film festival. In this documentary she is responsible for communication with media and preparation of media releases.",
     martinTitle: "Graphical designer",
-    martinBio: "",
+    martinBio:
+      "Graphic designer with a focus on web design and digital products. He has been trying to interest people through his visual creation since high school, where he was 'absorbed' by digital tools. Now he works as a freelancer with several companies and agencies. As part of the project, he was in charge of web design.",
+    ladaTitle: "Social media consultant",
+    ladaBio:
+      "Science popularizer and social media specialist. Co-founder of the site Vědátor, who slightly advised on the promotion of the film on the worst invention since the atomic bomb - namely Facebook.",
     production: "movie production",
     mediaPr: "MEDIA & PR",
   },
@@ -133,6 +137,9 @@ module.exports = {
     martinTitle: "Grafický designér",
     martinBio:
       "Grafik se zaměřením na webdesign a digitální produkty. Zaujmout lidi skrze jeho vizuální tvorbu se snaží už od střední školy, kde ho “pohltily” digitální nástroje. Nyní spolupracuje z pozice freelancera s několika firmami a agenturami. V rámci projektu měl na starost webdesign.",
+    ladaTitle: "Konzultant sociálních sítí ",
+    ladaBio:
+      "Popularizátor vědy a specialista sociálních sítí. Spoluzakladatel stránky Vědátor, který mírně poradil s propagací filmu na nejhorším vynálezu od atomové bomby - totiž Facebooku.",
     production: "produkce filmu",
     mediaPr: "MÉDIA & PR",
   },

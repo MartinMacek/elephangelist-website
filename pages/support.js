@@ -27,22 +27,23 @@ export default function Support() {
         </div>
         <div className="z-10 flex flex-col md:flex-row gap-12 text-center mt-48 mb-44">
           <SupportItem
-            title={translate("supportTile2Title")}
-            desc={translate("supportTile2Description")}
-            image="bg-[url('/assets/support2.webp')] brightness-75"
-            url="mailto:info@save-elephants.org?subject=Dobrovolnictví"
-          />
-          <SupportItem
             title={translate("supportTile1Title")}
             desc={translate("supportTile1Description")}
             image="bg-[url('/assets/support1.webp')]"
             url="https://www.donio.cz/elephangelist"
           />
           <SupportItem
+            title={translate("supportTile2Title")}
+            desc={translate("supportTile2Description")}
+            image="bg-[url('/assets/support2.webp')] brightness-75"
+            url="mailto:info@save-elephants.org?subject=Zájem o dobrovolnictví"
+          />
+
+          {/* <SupportItem
             title={translate("supportTile3Title")}
             desc={translate("supportTile3Description")}
             image="bg-[url('/assets/support3.webp')]"
-          />
+          /> */}
         </div>
       </div>
 

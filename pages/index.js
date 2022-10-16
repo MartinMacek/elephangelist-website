@@ -15,12 +15,14 @@ import EventItem from "../components/event-item";
 import Footer from "../components/footer";
 import HomePageRow from "../components/homepage-row";
 import Navbar from "../components/navbar";
+import YoutubeEmbed from "../components/video-embed";
 import { useTranslation } from "../utils/translateHook";
 
 export default function Home() {
   const translate = useTranslation().translate;
 
   const [showShare, setShowShare] = useState(false);
+  const [videoOpen, setVideoOpen] = useState(false);
 
   const events = [
     {
@@ -40,6 +42,33 @@ export default function Home() {
   ];
   return (
     <div className="overflow-hidden">
+      <div
+        className={
+          "w-screen h-screen bg-[#23211E] bg-opacity-90 z-50 " +
+          (videoOpen ? "fixed" : "hidden")
+        }
+        onClick={() => setVideoOpen(false)}
+      >
+        <div className="flex flex-col h-screen ">
+          <div className="flex flex-row w-full justify-end">
+            <div
+              className=" right-0 cursor-pointer place-self-end px-6 py-8 mt-5 mr-2"
+              onClick={() => setVideoOpen(false)}
+            >
+              <Image
+                src={"/assets/close.svg"}
+                alt="close"
+                height={20}
+                width={20}
+              />
+            </div>
+          </div>
+          <div className="relative flex flex-col max-w-7xl mx-auto pb-20  px-7 w-full z-10">
+            <YoutubeEmbed embedId="dQw4w9WgXcQ" />
+          </div>
+        </div>
+      </div>
+
       <Head>
         <title>The Elephangelist - Arthur F. Sniegon</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -64,19 +93,21 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row gap-x-[10px] items-center text-[21px] font-bold mt-7 mb-48 ">
-              <Link href="/">
-                <div className="flex flex-row px-6 py-3  bg-[#BCAE7E] rounded-[5px] items-center">
-                  <span className="flex mr-[10px]">
-                    <Image
-                      src="/assets/play.svg"
-                      width={30}
-                      height={30}
-                      alt="play"
-                    />
-                  </span>
-                  <span>{translate("play")}</span>
-                </div>
-              </Link>
+              <div
+                className="flex flex-row px-6 py-3  bg-[#BCAE7E] rounded-[5px] items-center cursor-pointer"
+                onClick={() => setVideoOpen(true)}
+              >
+                <span className="flex mr-[10px]">
+                  <Image
+                    src="/assets/play.svg"
+                    width={30}
+                    height={30}
+                    alt="play"
+                  />
+                </span>
+                <span>{translate("play")}</span>
+              </div>
+
               <Link href="/support">
                 <div className="flex flex-row px-6 py-3  bg-[#BCAE7E] rounded-[5px] bg-opacity-70 cursor-pointer">
                   <span className="flex mr-[10px]">

@@ -6,7 +6,7 @@ export default function SupportItem(props) {
 
   return (
     <div className="flex flex-col w-full hover:scale-105 duration-300 cursor-pointer opacity-75 hover:opacity-100">
-      <a href={props.url}>
+      <a href={props.url} target="_blank" rel="noopener noreferrer">
         <div
           className={
             "w-full h-[560px] bg-slate-300 font-['Bebas_Neue'] pt-12 hover:underline underline-offset-[6px]  bg-cover bg-center " +
