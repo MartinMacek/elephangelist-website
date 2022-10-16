@@ -54,17 +54,14 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-    background: #23211e;
-  }
-  body {
-    color: white;
-    background: #23211e;
-  }
+html {
+  color-scheme: dark;
+  background: #23211e;
 }
-
+body {
+  color: white;
+  background: #23211e;
+}
 .main-title {
   text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.6);
   -webkit-text-stroke-width: 1.5px;
