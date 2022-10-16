@@ -7,18 +7,21 @@
   src: url("/font/Rajdhani-Light.ttf");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Rajdhani";
   src: url("/font/Rajdhani-Regular.ttf");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Rajdhani";
   src: url("/font/Rajdhani-Bold.ttf");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -26,6 +29,7 @@
   src: url("/font/Rajdhani-Medium.ttf");
   font-weight: medium;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,6 +37,7 @@
   src: url("/font/BebasNeue-Regular.ttf");
   font-weight: medium;
   font-style: normal;
+  font-display: swap;
 }
 
 html,

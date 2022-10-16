@@ -23,7 +23,7 @@ module.exports = {
       "At the same time, taking over the administration of the region would make it possible to explore some animal and plant species more closely, bring new job opportunities for local residents and provide opportunities for future ecotourism activities. The intended model of territorial administration is the first Czech initiative of such scale in Africa and can be a major contribution to nature conservation in the region. However, this initiative would not be possible without the support from others who, like Arthur, are not indifferent to the fate of elephants and other endangered species.",
     supportTitle: "Support Arthur",
     supportDescription:
-      "Get involved in fundraising and volunteering and help Arthur extend his activities to protect elephants and other endangered species in the Congo. You can also learn more about how you can contribute to animal protection in your everyday life.",
+      "Get involved in fundraising and volunteering and help Arthur extend his activities to protect elephants and other endangered species in the Congo.",
     whoSupported: "Who has already supported Arthur?",
     whoSupportedContent:
       "Technology plays a crucial role in the conservation of endangered species. This is also why Huawei decided to support us: their Tech4All project is a long-term contribution to the protection of biodiversity worldwide. Take a backstage look with Arthur at Neusiedler See in Austria where Guardian technologies have been helping for over a year.",
@@ -95,8 +95,8 @@ module.exports = {
       "Správa území by zároveň umožnila blíže zkoumat některé druhy živočichů a rostlin, nabídla by nové pracovní příležitosti pro místní obyvatele, ale také výhledově zprostředkovala možnosti pro eko-turistické aktivity. Plánovaný model správy území je první českou iniciativou podobného rozsahu v Africe, která může zásadně přispět k ochraně přírody v tomto regionu. Tato iniciativa se však neobejde bez podpory dalších lidí, kterým stejně jako Arthurovi není osud slonů a jiných ohrožených druhů zvířat lhostejný.",
     supportTitle: "Podpořte Arthura",
     supportDescription:
-      "Zapojte se v rámci dobročinné sbírky, nebo dobrovolnictví, a pomozte Arthurovi rozvinout jeho aktivity na ochranu slonů a dalších ohrožených zvířat v Kongu. Zjistit ale můžete i více o tom, jak lze k ochraně zvířat přispívat naším každodenním způsobem života.",
-    whoSupported: "Kdo už Arthura podpořil",
+      "Zapojte se v rámci dobročinné sbírky, nebo dobrovolnictví, a pomozte Arthurovi rozvinout jeho aktivity na ochranu slonů a dalších ohrožených zvířat v Kongu.",
+    whoSupported: "Kdo už Arthura podpořil?",
     whoSupportedContent:
       "V ochraně ohrožených druhů zvířat hrají zásadní roli technologie. Právě to je důvod, proč se nás rozhodla podpořit i společnost Huawei, která projektem Tech4All dlouhodobě přispívá k ochraně biodiverzity napříč planetou. Nahlédněte s Arthurem do zákulisí Neusiedler See v Rakousku, kde technologie Guardian už přes rok pomáhají.",
     supportTile3Title: "Zjistit více o tématu",
