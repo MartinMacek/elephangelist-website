@@ -11,7 +11,11 @@ export default function Footer() {
     <div className="flex flex-col w-full bg-white text-[#23211E] font-['Bebas_Neue'] text-center text-[40px] ">
       {translate("generalPartner")}
       <div className="flex mx-auto mt-9 px-6 sm:px-2">
-        <a href="https://www.huawei.com/">
+        <a
+          href="https://www.huawei.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src="/partners/huawei.webp"
             alt="partner"
@@ -22,7 +26,7 @@ export default function Footer() {
       </div>
       <span className="mt-20 uppercase">{translate("mainPartners")}</span>
       <div className="flex flex-wrap justify-center mx-auto mt-11 gap-x-4 sm:gap-x-12  max-w-5xl px-4">
-        <a href="">
+        <a href="http://zemekvet.cz/" target="_blank" rel="noopener noreferrer">
           <Image
             src="/partners/zemekvet.svg"
             alt="partner"
@@ -31,7 +35,11 @@ export default function Footer() {
           />
         </a>
         <div className="my-auto pt-8">
-          <a href="">
+          <a
+            href="https://www.galeriesantovka.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/santovka.webp"
               alt="partner"
@@ -41,7 +49,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.viagood.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/viagood.svg"
               alt="partner"
@@ -52,7 +64,11 @@ export default function Footer() {
         </div>
 
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.dav-ova.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/dav.webp"
               alt="partner"
@@ -63,7 +79,11 @@ export default function Footer() {
         </div>
 
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.nadaceivanadejmala.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/nadace.webp"
               alt="partner"
@@ -73,7 +93,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="p-8">
-          <a href="">
+          <a
+            href="https://www.filmcrew.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/film-crew.webp"
               alt="partner"
@@ -83,7 +107,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.gumotex.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/gumotex.webp"
               alt="partner"
@@ -93,7 +121,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://avp.upol.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/avp.webp"
               alt="partner"
@@ -103,7 +135,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.cmtf.upol.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/cmtf.webp"
               alt="partner"
@@ -113,7 +149,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.pevnostpoznani.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/pevnost.webp"
               alt="partner"
@@ -122,7 +162,11 @@ export default function Footer() {
             />
           </a>
         </div>
-        <a href="">
+        <a
+          href="https://www.donio.cz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src="/partners/donio.webp"
             alt="partner"
@@ -131,7 +175,11 @@ export default function Footer() {
           />
         </a>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.spolecenskaodpovednost.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/aso.webp"
               alt="partner"
@@ -142,7 +190,11 @@ export default function Footer() {
         </div>
 
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://cz.westfield.com/chodov"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/wesfield.webp"
               alt="partner"
@@ -152,7 +204,11 @@ export default function Footer() {
           </a>
         </div>
         <div className="my-auto">
-          <a href="">
+          <a
+            href="https://www.fotopast.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/partners/fotopast.webp"
               alt="partner"
@@ -161,7 +217,11 @@ export default function Footer() {
             />
           </a>
         </div>
-        <a href="https://blackpoint.dev/">
+        <a
+          href="https://blackpoint.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src="/partners/blackpoint.svg"
             alt="partner"
@@ -172,7 +232,11 @@ export default function Footer() {
       </div>
       <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
       <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
-        <a href="">
+        <a
+          href="https://www.ekonews.cz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src="/partners/ekonews.webp"
             alt="partner"
@@ -180,7 +244,7 @@ export default function Footer() {
             height={53}
           />
         </a>
-        <a href="">
+        <a href="https://cc.cz/" target="_blank" rel="noopener noreferrer">
           <Image src="/partners/cc.svg" alt="partner" width={200} height={44} />
         </a>
       </div>
@@ -188,7 +252,11 @@ export default function Footer() {
         <span className="mt-20 uppercase">{translate("withSupport")}</span>
         <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
           <div className="my-auto">
-            <a href="">
+            <a
+              href="https://www.ochranazvirat.cz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="/partners/nnoz.webp"
                 alt="partner"
@@ -198,7 +266,11 @@ export default function Footer() {
             </a>
           </div>
           <div className="my-auto">
-            <a href="">
+            <a
+              href="https://www.kloktex.cz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="/partners/kloktex.webp"
                 alt="partner"
