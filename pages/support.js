@@ -48,7 +48,7 @@ export default function Support() {
         </div>
       </div>
 
-      <div className="invisible flex flex-col max-w-7xl mx-auto  text-[#F5F3E1] pb-10 px-7">
+      <div className=" flex flex-col max-w-7xl mx-auto  text-[#F5F3E1] pb-10 px-7">
         <div className="text-[55px] sm:text-[90px] font-['Bebas_Neue'] text-center font-normal  ">
           {translate("whoSupported")}
         </div>
@@ -60,8 +60,8 @@ export default function Support() {
         <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
           <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
         </div>
-        <div className="invisible relative flex flex-col max-w-6xl mx-auto pb-20  px-7 w-full z-10">
-          <YoutubeEmbed embedId="dQw4w9WgXcQ" />
+        <div className=" relative flex flex-col max-w-6xl mx-auto pb-20  px-7 w-full z-10">
+          <YoutubeEmbed embedId="uOzpLJ4pgo0" />
         </div>
       </div>
       <Footer />

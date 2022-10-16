@@ -21,7 +21,7 @@ module.exports = {
       "This project aims to take over the Tsoulou Reserve in the South-West Congo which has large natural resources but lacks any kind of administration. This is also why elephants and other endangered animals are poached there, which contributes to overall devastation of the unique wildlife in the region. Save-Elephants is therefore aiming to extend its activities in the region and take over its administration from the Congolese government. This would not only help protect the endangered species, but also make it possible to rehabilitate the wildlife.",
     homeText6:
       "At the same time, taking over the administration of the region would make it possible to explore some animal and plant species more closely, bring new job opportunities for local residents and provide opportunities for future ecotourism activities. The intended model of territorial administration is the first Czech initiative of such scale in Africa and can be a major contribution to nature conservation in the region. However, this initiative would not be possible without the support from others who, like Arthur, are not indifferent to the fate of elephants and other endangered species.",
-    supportTitle: "Support Arthura",
+    supportTitle: "Support Arthur",
     supportDescription:
       "Get involved in fundraising and volunteering and help Arthur extend his activities to protect elephants and other endangered species in the Congo. You can also learn more about how you can contribute to animal protection in your everyday life.",
     whoSupported: "Who has already supported Arthur?",
@@ -50,7 +50,7 @@ module.exports = {
     kubaTitle: "Director, DOP",
     kubaBio:
       "Film director with experience in international projects. He specializes in documentary filmmaking and telling unique stories that can make the viewers take action. In addition to directing, he was also in charge of editing, colour-grading and sound design within the project.",
-    radekTitle: "director of photography and photographer",
+    radekTitle: "Director of photography and photographer",
     radekBio:
       "He worked for major Czech and international companies and gradually got to photographing and filming wildlife. As a director of photography and wildlife photographer he was responsible for the accompanying footage, pictures of animals and the actual backstage filming in the Congo.",
     lukasTitle: "Producer",
@@ -70,6 +70,7 @@ module.exports = {
       "Science popularizer and social media specialist. Co-founder of the site Vědátor, who slightly advised on the promotion of the film on the worst invention since the atomic bomb - namely Facebook.",
     production: "movie production",
     mediaPr: "MEDIA & PR",
+    publicScreening: "Film public screening",
   },
   cs: {
     home: "FILM",
@@ -142,5 +143,6 @@ module.exports = {
       "Popularizátor vědy a specialista sociálních sítí. Spoluzakladatel stránky Vědátor, který mírně poradil s propagací filmu na nejhorším vynálezu od atomové bomby - totiž Facebooku.",
     production: "produkce filmu",
     mediaPr: "MÉDIA & PR",
+    publicScreening: "Veřejné promítání filmu",
   },
 };

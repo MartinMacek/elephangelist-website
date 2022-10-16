@@ -7,14 +7,14 @@ export default function EventItem(props) {
   const translate = useTranslation().translate;
   return (
     <div className="flex flex-col md:flex-row justify-between gap-y-7 border-b border-[#B2B5A3] border-opacity-20 py-7 text-[16px] items-center">
-      <span className="font-bold ">{props.name}</span>
+      <span className="font-bold ">{translate("publicScreening")}</span>
       <div className="flex flex-row flex-grow w-full md:w-auto justify-between md:justify-evenly">
         <span>{props.place}</span>
         <span>{props.date}</span>
         <span>{props.time}</span>
       </div>
       <span className="flex flex-row gap-x-5">
-        <a href={props.url}>
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
           <div className="flex flex-row px-4 py-2  bg-[#BCAE7E] rounded-[5px] items-center cursor-pointer">
             <span className="flex mr-[10px]">
               <Image
