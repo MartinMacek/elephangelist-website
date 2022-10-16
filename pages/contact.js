@@ -15,7 +15,7 @@ export default function Contact() {
         <Navbar />
         <div className="min-h-screen">
           <div className=" flex flex-col max-w-4xl  mx-auto h-[70vh] text-white z-10 ">
-            <div className=" text-[50px] sm:text-[90px] font-['Bebas_Neue'] text-center font-normal my-auto z-10">
+            <div className=" text-[50px] sm:text-[90px] leading-tight font-['Bebas_Neue'] text-center font-normal my-auto z-10">
               {translate("contactTitle")}
             </div>
           </div>

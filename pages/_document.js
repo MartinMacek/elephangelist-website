@@ -25,6 +25,40 @@ export default function Document() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
+
+        {/* <!-- Primary Meta Tags --> */}
+
+        <meta name="title" content="The Elephangelist" />
+        <meta
+          name="description"
+          content="Příběh Čecha, který mění osudy zvířat v Africe"
+        />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.elephangelist.cz" />
+        <meta property="og:title" content="The Elephangelist" />
+        <meta
+          property="og:description"
+          content="Příběh Čecha, který mění osudy zvířat v Africe"
+        />
+        <meta
+          property="og:image"
+          content="https://www.elephangelist.cz/assets/og_image.png"
+        />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.elephangelist.cz" />
+        <meta property="twitter:title" content="The Elephangelist" />
+        <meta
+          property="twitter:description"
+          content="Příběh Čecha, který mění osudy zvířat v Africe"
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.elephangelist.cz/assets/og_image.png"
+        ></meta>
       </Head>
       <body>
         <Main />

@@ -75,7 +75,7 @@ module.exports = {
     indexSubtitle: "Příběh Čecha, který mění osudy zvířat v Africe",
     aboutArthur: "O Arthurovi",
     aboutArthurSubtitle: "Save-Elephants a Tsoulou",
-    play: "Přehrát film",
+    play: "Přehrát",
     homeText1:
       "Arthur F. Sniegon je nenápadný kluk z Třince. Přesto svým příběhem mění osud slonů a dalších ohrožených zvířat v Africe. Už jako malý byl obklopen přírodou a zvířaty. Skutečnou vášeň pro jejich objevování však v sobě naplno probudil až při cestách po Blízkém východě, Evropě a Severní Americe.",
     homeText2:

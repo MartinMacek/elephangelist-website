@@ -1,6 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  LinkedinIcon,
+  LinkedinShareButton,
+  TwitterIcon,
+  TwitterShareButton,
+} from "react-share";
 import EventItem from "../components/event-item";
 
 import Footer from "../components/footer";
@@ -10,6 +19,8 @@ import { useTranslation } from "../utils/translateHook";
 
 export default function Home() {
   const translate = useTranslation().translate;
+
+  const [showShare, setShowShare] = useState(false);
 
   const events = [
     {
@@ -38,15 +49,14 @@ export default function Home() {
 
       <div className=" bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-0 ">
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
-        <div className="flex flex-col max-w-7xl  h-[100vh]  justify-end mx-auto px-7 ">
+        <div className="flex flex-col h-[100vh]  justify-end mx-auto px-7 sm:px-[70px] ">
           <div className="flex flex-col">
             <div className="">
               <Image
-                src={"/assets/logo-footer.png"}
+                src={"/assets/home_logo.svg"}
                 alt="logo"
                 width={544}
-                height={75}
-                quality={95}
+                height={90}
               />
             </div>
             <div className=" text-sm sm:text-[29px] mt-4 text-center sm:text-left ">
@@ -80,14 +90,40 @@ export default function Home() {
                   <span>{translate("support")}</span>
                 </div>
               </Link>
-              <div className="hidden sm:flex pl-2 cursor-pointer">
-                <Image
-                  src="/assets/share_icon.svg"
-                  width={95}
-                  height={22}
-                  alt="share"
-                />
-              </div>
+              {!showShare ? (
+                <div
+                  className="hidden sm:flex pl-2 cursor-pointer"
+                  onClick={() => setShowShare(true)}
+                >
+                  <Image
+                    src="/assets/share_icon.svg"
+                    width={95}
+                    height={22}
+                    alt="share"
+                  />
+                </div>
+              ) : (
+                <div className="flex gap-2">
+                  <FacebookShareButton
+                    title="The Elephangelist - Dokument"
+                    url="https://www.elephangelist.cz/"
+                  >
+                    <FacebookIcon size={44} round={true} />
+                  </FacebookShareButton>
+                  <TwitterShareButton
+                    title="The Elephangelist - Dokument"
+                    url="https://www.elephangelist.cz/"
+                  >
+                    <TwitterIcon size={44} round={true} />
+                  </TwitterShareButton>
+                  <LinkedinShareButton
+                    title="The Elephangelist - Dokument"
+                    url="https://www.elephangelist.cz/"
+                  >
+                    <LinkedinIcon size={44} round />{" "}
+                  </LinkedinShareButton>
+                </div>
+              )}
             </div>
           </div>
         </div>
