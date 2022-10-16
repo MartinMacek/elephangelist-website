@@ -21,6 +21,8 @@ export default function Footer() {
             alt="partner"
             width={498}
             height={109}
+            placeholder="blur"
+            blurDataURL="/partners/huawei.webp"
           />
         </a>
       </div>
@@ -32,6 +34,8 @@ export default function Footer() {
             alt="partner"
             width={154}
             height={154}
+            placeholder="blur"
+            blurDataURL="/partners/zemekvet.svg"
           />
         </a>
         <div className="my-auto pt-8">
@@ -45,6 +49,8 @@ export default function Footer() {
               alt="partner"
               height={60}
               width={154}
+              placeholder="blur"
+              blurDataURL="/partners/santovka.webp"
             />
           </a>
         </div>
@@ -59,6 +65,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={80}
+              placeholder="blur"
+              blurDataURL="/partners/viagood.svg"
             />
           </a>
         </div>
@@ -74,6 +82,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={35}
+              placeholder="blur"
+              blurDataURL="/partners/dav.webp"
             />
           </a>
         </div>
@@ -89,6 +99,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={43}
+              placeholder="blur"
+              blurDataURL="/partners/nadace.webp"
             />
           </a>
         </div>
@@ -103,6 +115,8 @@ export default function Footer() {
               alt="partner"
               width={86}
               height={86}
+              placeholder="blur"
+              blurDataURL="/partners/film-crew.webp"
             />
           </a>
         </div>
@@ -117,6 +131,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={58.52}
+              placeholder="blur"
+              blurDataURL="/partners/gumotex.webp"
             />
           </a>
         </div>
@@ -131,6 +147,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={73}
+              placeholder="blur"
+              blurDataURL="/partners/avp.webp"
             />
           </a>
         </div>
@@ -145,6 +163,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={70.5}
+              placeholder="blur"
+              blurDataURL="/partners/cmtf.webp"
             />
           </a>
         </div>
@@ -159,6 +179,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={76.5}
+              placeholder="blur"
+              blurDataURL="/partners/pevnost.webp"
             />
           </a>
         </div>
@@ -172,6 +194,8 @@ export default function Footer() {
             alt="partner"
             width={154}
             height={154}
+            placeholder="blur"
+            blurDataURL="/partners/donio.webp"
           />
         </a>
         <div className="my-auto">
@@ -185,6 +209,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={109}
+              placeholder="blur"
+              blurDataURL="/partners/aso.webp"
             />
           </a>
         </div>
@@ -200,6 +226,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={92.5}
+              placeholder="blur"
+              blurDataURL="/partners/wesfield.webp"
             />
           </a>
         </div>
@@ -214,6 +242,8 @@ export default function Footer() {
               alt="partner"
               width={154}
               height={34.8}
+              placeholder="blur"
+              blurDataURL="/partners/fotopast.webp"
             />
           </a>
         </div>
@@ -227,6 +257,8 @@ export default function Footer() {
             alt="partner"
             width={154}
             height={154}
+            placeholder="blur"
+            blurDataURL="/partners/blackpoint.svg"
           />
         </a>
       </div>
@@ -243,6 +275,8 @@ export default function Footer() {
               alt="partner"
               width={180}
               height={62}
+              placeholder="blur"
+              blurDataURL="/partners/ekonews.webp"
             />
           </a>
         </div>
@@ -253,6 +287,8 @@ export default function Footer() {
               alt="partner"
               width={200}
               height={44}
+              placeholder="blur"
+              blurDataURL="/partners/cc.svg"
             />
           </a>
         </div>
@@ -271,6 +307,8 @@ export default function Footer() {
                 alt="partner"
                 width={154}
                 height={54}
+                placeholder="blur"
+                blurDataURL="/partners/nnoz.webp"
               />
             </a>
           </div>
@@ -285,6 +323,8 @@ export default function Footer() {
                 alt="partner"
                 width={154}
                 height={41.6}
+                placeholder="blur"
+                blurDataURL="/partners/kloktex.webp"
               />
             </a>
           </div>
