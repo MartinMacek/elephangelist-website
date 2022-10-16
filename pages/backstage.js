@@ -33,7 +33,7 @@ export default function Backstage() {
             <ProfileItem
               name="Radek Karko"
               position="Kameraman a fotograf"
-              img="bg-[url('/team/radek.webp')]"
+              img="bg-[url('/team/radek.webp')] brightness-75"
               bio="Přes tvorbu pro velké české i mezinárodní značky se postupně dostal až k fotografování a filmování divokých zvířat. Jako kameraman a wildlife fotograf stojí za doprovodnými záběry, snímky zvířat a samotného zákulisí natáčení v Kongu."
             />
             <ProfileItem
@@ -51,12 +51,13 @@ export default function Backstage() {
             <ProfileItem
               name="Martina Vysloužilová"
               position="Mediální zástupkyně"
-              img="bg-[url('/team/martina.webp')]"
+              img="bg-[url('/team/martina.webp')] brightness-90"
               bio="V oblasti komunikace s médii se pohybuje přes 10 let. Dříve byla redaktorkou České televize. Zkušenosti s PR má jak z redakční činnosti, tak i v zastupování jednotlivých projektů, například filmový festival AFO. V rámci dokumentu má na starost mediální komunikaci a přípravu výstupů."
             />
             <ProfileItem
               name="Martin Šindelář"
               position="Grafický designér"
+              img="bg-[url('/team/martin.webp')] brightness-90"
               bio="Grafik se zaměřením na webdesign a digitální produkty. Zaujmout lidi skrze jeho vizuální tvorbu se snaží už od střední školy, kde ho “pohltily” digitální nástroje. Nyní spolupracuje z pozice freelancera s několika firmami a agenturami. V rámci projektu měl na starost webdesign."
             />
           </div>

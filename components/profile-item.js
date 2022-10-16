@@ -1,10 +1,4 @@
-import { useRouter } from "next/router";
-import { useTranslation } from "../utils/translateHook";
-
 export default function ProfileItem(props) {
-  const router = useRouter();
-  const translate = useTranslation().translate;
-
   return (
     <div className="flex flex-col text-center items-center mx-auto text-[#F5F3E1]">
       <div

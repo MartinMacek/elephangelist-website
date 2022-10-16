@@ -14,6 +14,7 @@ module.exports = {
     indexSubtitle: "Příběh Čecha, který mění osudy zvířat v Africe",
     aboutArthur: "O Arthurovi",
     aboutArthurSubtitle: "Save-Elephants a Tsoulou",
+    play: "Přehrát film",
     homeText1:
       "Arthur F. Sniegon je nenápadný kluk z Třince. Přesto svým příběhem mění osud slonů a dalších ohrožených zvířat v Africe. Už jako malý byl obklopen přírodou a zvířaty. Skutečnou vášeň pro jejich objevování však v sobě naplno probudil až při cestách po Blízkém východě, Evropě a Severní Americe.",
     homeText2:
@@ -41,7 +42,7 @@ module.exports = {
       "Zapojte se v rámci Save-Elephants do aktivní ochrany ohrožených druhů zvířat ve střední Africe",
     supportTile1Title: "Přispět do sbírky",
     supportTile1Description:
-      "Veškerý výtěžek poputuje na transparentní účet organizace Save-Elephants a bude využit k podpoře ochranářských aktivit v oblasti Tsoulou na jihozápadě Konga",
+      "Veškerý výtěžek poputuje na transparentní účet Save-Elephants a bude využit k podpoře ochranářských aktivit v oblasti Tsoulou",
     backstageTitle: "Zákulisí projektu",
     backstageDescription:
       "Jsme nadšení filmoví tvůrci a hledáme zajímavé příběhy, které mohou otevírat důležitá společenská témata. Ochrana ohrožených druhů zvířat mezi ně bezesporu patří. Proto nás cesta dovedla až k Arthurovi a jeho neobyčejnému příběhu, kterým bychom chtěli přispět k zapojení co největšího počtu lidí do změny.",
@@ -52,5 +53,6 @@ module.exports = {
     withSupport: "za podpory",
     moreInfo: "Více info",
     addToCalendar: "Uložit do kalendáře",
+    pressRelease: "Tisková zpráva",
   },
 };

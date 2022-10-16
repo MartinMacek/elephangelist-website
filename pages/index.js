@@ -64,7 +64,7 @@ export default function Home() {
                       alt="play"
                     />
                   </span>
-                  <span>Trailer</span>
+                  <span>{translate("play")}</span>
                 </div>
               </Link>
               <Link href="/support">

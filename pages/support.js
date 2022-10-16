@@ -29,7 +29,8 @@ export default function Support() {
           <SupportItem
             title={translate("supportTile2Title")}
             desc={translate("supportTile2Description")}
-            image="bg-[url('/assets/support2.webp')]"
+            image="bg-[url('/assets/support2.webp')] brightness-75"
+            url="mailto:info@save-elephants.org?subject=Dobrovolnictví"
           />
           <SupportItem
             title={translate("supportTile1Title")}
