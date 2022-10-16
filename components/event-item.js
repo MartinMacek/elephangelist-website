@@ -29,14 +29,14 @@ export default function EventItem(props) {
             </span>
           </div>
         </a>
-        <Link href="/">
+        {/* <Link href="/">
           <div className="flex flex-row px-2 md:px-10  py-2 border border-[#BCAE7E] rounded-[5px] items-center cursor-pointer">
             <span className="flex"></span>
             <span className=" text-sm sm:text-[17px] w-full">
               {translate("addToCalendar")}
             </span>
           </div>
-        </Link>
+        </Link> */}
       </span>
     </div>
   );
