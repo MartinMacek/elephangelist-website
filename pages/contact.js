@@ -41,7 +41,9 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col text-2xl lg:mx-auto">
-              <div className="text-base mb-2 ">PRODUKCE FILMU</div>
+              <div className="text-base mb-2 uppercase">
+                {translate("production")}
+              </div>
               <div className="text-[36px] font-['Bebas_Neue']">Lukáš Hodis</div>
 
               <div>
@@ -51,7 +53,9 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col text-2xl lg:mx-auto ">
-              <div className="text-base mb-2 ">MÉDIA & PR</div>
+              <div className="text-base mb-2 uppercase">
+                {translate("mediaPr")}
+              </div>
               <div className="text-[36px] font-['Bebas_Neue']">
                 Martina Vysloužilová
               </div>

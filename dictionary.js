@@ -1,10 +1,71 @@
 module.exports = {
   en: {
-    home: "HOME",
-    support: "SUPPORT",
+    home: "FILM",
+    support: "DONATE",
     backstage: "BACKSTAGE",
     contact: "CONTACT",
-    indexSubtitle: "Czech guy, changing fate of African elephants",
+    indexSubtitle:
+      "A story of a Czech who is changing the fate of animals in Africa",
+    aboutArthur: "About Arthur",
+    aboutArthurSubtitle: "Save-Elephants and Tsoulou",
+    play: "Play",
+    homeText1:
+      "Arthur F. Sniegon is a modest man from Třinec. Yet, with his life story, he changes the fate of elephants and other endangered animals in Africa. He lived in the midst of nature surrounded by animals already in his childhood. However, he only ignited his true passion for the exploration of nature and animals during his travels in the Middle East, Europe and North America.",
+    homeText2:
+      "He worked as a volunteer at the Cochrane Ecological Institute in Canada, taking care of endangered wildlife. He then took a few trips to Africa, which changed his life forever. It was in Africa that he first witnessed the poaching of elephants and the illegal trade in their tusks. For other Central Europeans, it was something that was happening at the other end of the world. For Arthur, however, it became a personal mission for him and he decided to dedicate his life to elephant conservation.",
+    homeText3:
+      "In 2013 Arthur founded the Save-Elephants organization through which he monitors the African wildlife, raises awareness of animal conservation and educates the locals in terms of coexistence with large animals. However, he mainly aims to combat the illegal ivory trade and identify trafficking networks. All these activities are carried out in cooperation with other organizations such as EAGLE and World Wildlife Fund. Arthur has already managed to intercept thousands of contraband shipments, arrest dozens of traffickers of ivory and other wildlife products, and thus locally weaken the poachers' pressure and the sense of impunity.",
+    homeText4:
+      "The decline of the elephant population has been slowing down slightly in recent years, also thanks to Save-Elephants' activities. Nevertheless, elephants and other endangered species are still in danger of extinction. A new project is coming to life under the auspices of the organization; it has the potential to change this situation and become the largest Czech initiative to protect endangered species in Africa to date.",
+    homeText5:
+      "This project aims to take over the Tsoulou Reserve in the South-West Congo which has large natural resources but lacks any kind of administration. This is also why elephants and other endangered animals are poached there, which contributes to overall devastation of the unique wildlife in the region. Save-Elephants is therefore aiming to extend its activities in the region and take over its administration from the Congolese government. This would not only help protect the endangered species, but also make it possible to rehabilitate the wildlife.",
+    homeText6:
+      "At the same time, taking over the administration of the region would make it possible to explore some animal and plant species more closely, bring new job opportunities for local residents and provide opportunities for future ecotourism activities. The intended model of territorial administration is the first Czech initiative of such scale in Africa and can be a major contribution to nature conservation in the region. However, this initiative would not be possible without the support from others who, like Arthur, are not indifferent to the fate of elephants and other endangered species.",
+    supportTitle: "Support Arthura",
+    supportDescription:
+      "Get involved in fundraising and volunteering and help Arthur extend his activities to protect elephants and other endangered species in the Congo. You can also learn more about how you can contribute to animal protection in your everyday life.",
+    whoSupported: "Who has already supported Arthur?",
+    whoSupportedContent:
+      "Technology plays a crucial role in the conservation of endangered species. This is also why Huawei decided to support us: their Tech4All project is a long-term contribution to the protection of biodiversity worldwide. Take a backstage look with Arthur at Neusiedler See in Austria where Guardian technologies have been helping for over a year.",
+    supportTile3Title: "Learn more",
+    supportTile3Description:
+      "Act responsibly towards nature and animals and find out how you can help protect them on an everyday basis.",
+    supportTile2Title: "Volunteering",
+    supportTile2Description:
+      "Get involved in active conservation of endangered species in Central Africa through Save-Elephants.",
+    supportTile1Title: "Donate",
+    supportTile1Description:
+      "All the funds raised will go to Save-Elephants' transparent account and will be used to support conservation activities in the Tsoulou region, South-West Congo.",
+    backstageTitle: "Project backstage",
+    backstageDescription:
+      "We are passionate filmmakers who are looking for interesting stories that can raise important social issues. The protection of endangered animal species is undoubtedly one of them. This is why our journey took us to Arthur and his extraordinary story, which we would like to tell in order to engage as many of you as possible in making a difference.",
+    contactTitle: "Do you want to get in touch with us?",
+    generalPartner: "general partner",
+    mainPartners: "main partners",
+    mediaPartners: "media partners",
+    withSupport: "with support",
+    moreInfo: "More info",
+    addToCalendar: "Save to calendar",
+    pressRelease: "Press release",
+    kubaTitle: "Director, DOP",
+    kubaBio:
+      "Film director with experience in international projects. He specializes in documentary filmmaking and telling unique stories that can make the viewers take action. In addition to directing, he was also in charge of editing, colour-grading and sound design within the project.",
+    radekTitle: "director of photography and photographer",
+    radekBio:
+      "He worked for major Czech and international companies and gradually got to photographing and filming wildlife. As a director of photography and wildlife photographer he was responsible for the accompanying footage, pictures of animals and the actual backstage filming in the Congo.",
+    lukasTitle: "Producer",
+    lukasBio:
+      "He has been involved in production since 2019. Last year he filmed the successful documentary 'Sludge Worms' which drew attention to prejudice in society. In this project he was in charge of fundraising, promotion and team organization.",
+    davidTitle: "Producer and consultant",
+    davidBio:
+      "He has travelled to every continent in the world and could see global environmental problems firsthand. Nowadays he deals in corporate sustainability consulting. In this project he contributed with his expertise in terms of content, production and communication.",
+    martinaTitle: "PR agent",
+    martinaBio:
+      "She has been working in the field of media communication for over 10 years. She previously used to work as an editor at Czech Television. She has experience in the field of PR both in editorial work and in representing individual projects, such as the AFO film festival. In this documentary she is responsible for communication with media and preparation of media releases.",
+    martinTitle: "Graphical designer",
+    martinBio: "",
+    production: "movie production",
+    mediaPr: "MEDIA & PR",
   },
   cs: {
     home: "FILM",
@@ -54,5 +115,25 @@ module.exports = {
     moreInfo: "Více info",
     addToCalendar: "Uložit do kalendáře",
     pressRelease: "Tisková zpráva",
+    kubaTitle: "Režisér, DOP",
+    kubaBio:
+      "Filmový režisér se zkušenostmi s mezinárodními projekty. Specializuje se na dokumentární tvorbu a zachycení jedinečných příběhů, které mohou diváky motivovat k akci. Kromě režie si vzal v projektu na starost i střih, color-grading a sound design.",
+    radekTitle: "Kameraman a fotograf",
+    radekBio:
+      "Přes tvorbu pro velké české i mezinárodní značky se postupně dostal až k fotografování a filmování divokých zvířat. Jako kameraman a wildlife fotograf stojí za doprovodnými záběry, snímky zvířat a samotného zákulisí natáčení v Kongu.",
+    lukasTitle: "Producent",
+    lukasBio:
+      "Produkci se věnuje od roku 2019. Loni stál za úspěšným dokumentem “Nitěnky“, který upozornil na téma předsudků ve společnosti. V rámci projektu má na starosti fundraising, propagaci a organizaci týmu.",
+    davidTitle: "Produkční a konzultant",
+    davidBio:
+      "Procestoval všechny kontinenty světa, kde viděl globální ekologické problémy na vlastní kůži. Nyní je konzultace udržitelnosti firem jeho povoláním. Na projektu se podílí svou odborností v rámci obsahu, produkce a komunikace.",
+    martinaTitle: "Mediální zástupkyně",
+    martinaBio:
+      "V oblasti komunikace s médii se pohybuje přes 10 let. Dříve byla redaktorkou České televize. Zkušenosti s PR má jak z redakční činnosti, tak i v zastupování jednotlivých projektů, například filmový festival AFO. V rámci dokumentu má na starost mediální komunikaci a přípravu výstupů.",
+    martinTitle: "Grafický designér",
+    martinBio:
+      "Grafik se zaměřením na webdesign a digitální produkty. Zaujmout lidi skrze jeho vizuální tvorbu se snaží už od střední školy, kde ho “pohltily” digitální nástroje. Nyní spolupracuje z pozice freelancera s několika firmami a agenturami. V rámci projektu měl na starost webdesign.",
+    production: "produkce filmu",
+    mediaPr: "MÉDIA & PR",
   },
 };
