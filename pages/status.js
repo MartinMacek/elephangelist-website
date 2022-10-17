@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import CommentItem from "../components/comment-item";
+import fetchStatus from "./api/status";
 
 export default function Status() {
   const [jsonData, setDonations] = useState([]);
 
   async function fetchJSON() {
-    const data = await fetch("https://www.donio.cz/widget/7321.json").then(
-      (res) => res.json()
-    );
+    const data = await fetchStatus();
+    console.log(data);
     setDonations(data);
     //console.log(data);
   }
