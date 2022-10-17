@@ -34,13 +34,14 @@ export default function Status() {
       <div className="flex relative w-full h-full mt-20 z-10">
         <div className="flex flex-col w-1/2 h-full pl-16 ">
           <div className=" text-2xl pl-4  font-bold">Celkově vybráno</div>
-          {jsonData.currentAmount && (
+          {jsonData && jsonData.currentAmount && (
             <div className="text-orange-700 pl-4  text-5xl font-bold mt-4">
               {jsonData.currentAmount} Kč
             </div>
           )}
           <div className="flex flex-col mt-6 h-fit overflow-y-scroll">
-            {jsonData.donations &&
+            {jsonData &&
+              jsonData.donations &&
               jsonData.donations.map((x) => (
                 <CommentItem
                   key={x.id}
