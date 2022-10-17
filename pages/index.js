@@ -86,6 +86,8 @@ export default function Home() {
                 alt="logo"
                 width={544}
                 height={90}
+                placeholder="blur"
+                blurDataURL="/assets/home_logo.svg"
               />
             </div>
             <div className=" text-sm sm:text-[29px] mt-4 text-center sm:text-left ">
@@ -174,7 +176,12 @@ export default function Home() {
 
       <div className="relative bg-white">
         <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
-          <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
+          <Image
+            src={"/assets/ripped.webp"}
+            alt="divider"
+            layout="fill"
+            unselectable
+          />
         </div>
         <div className="absolute -top-40 sm:-top-80  right-0 left-0 flex flex-col w-full max-w-6xl mx-auto py-20 px-9 z-30">
           <div className="h-96  sm:h-[642px] w-full bg-slate-400 bg-[url('/assets/home_main.webp')] bg-cover"></div>
