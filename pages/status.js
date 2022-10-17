@@ -20,7 +20,7 @@ export default function Status() {
 
   return (
     <div className="w-screen h-screen relative overflow-hidden bg-white text-black">
-      <div className="absolute z-0 -top-[700px] rotate-90 ">
+      <div className="absolute z-0 -top-[1000px] rotate-90 w-max">
         <Image
           src="/assets/circles.png"
           width={1085}
