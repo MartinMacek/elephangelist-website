@@ -1,13 +1,6 @@
 export default async function fetchStatus(req, res) {
   try {
-    const data = await fetch("https://www.donio.cz/widget/7321.json", {
-      method: "GET",
-      headers: {
-        accept: "application/json",
-        "content-type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      },
-    });
+    const data = await fetch("https://www.donio.cz/widget/7321.json");
 
     return data.json();
   } catch (error) {
