@@ -6,9 +6,32 @@ export default function Status() {
   const [jsonData, setDonations] = useState([]);
 
   async function fetchJSON() {
-    const data = await fetch("https://www.donio.cz/widget/7321.json").then(
-      (res) => res.json()
+    /*  const data = await fetch("https://www.donio.cz/widget/7321.json", {
+      headers: {
+        accept: "Accept: application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+    }).then((res) => res.json()); */
+
+    var myHeaders = new Headers();
+    myHeaders.append(
+      "Cookie",
+      "PHPSESSID=1kquiaopd6kkem6atu6ctjqhkv; ab_testing_group=AB-A2"
     );
+
+    var requestOptions = {
+      method: "GET",
+      headers: myHeaders,
+      redirect: "follow",
+    };
+
+    const data = await fetch(
+      "https://www.donio.cz/widget/7321.json",
+      requestOptions
+    )
+      .then((response) => response.text())
+      .then((result) => console.log(result))
+      .catch((error) => console.log("error", error));
     //const response = await fetch("https://www.donio.cz/widget/7321.json");
 
     //console.log(data);
