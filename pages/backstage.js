@@ -11,9 +11,8 @@ export default function Backstage() {
     <div className="overflow-hidden">
       <Navbar />
       <div className=" bg-[url('/assets/backstage_bg.webp')] bg-cover bg-center z-0 ">
-        <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
-
         <div className=" flex flex-col max-w-5xl min-h-screen mx-auto pt-36  sm:pt-60 text-[#F5F3E1] ">
+          <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
           <div className="text-[55px] sm:text-[90px] leading-tight font-['Bebas_Neue'] text-center font-normal  ">
             {translate("backstageTitle")}
           </div>
@@ -41,13 +40,13 @@ export default function Backstage() {
               name="Lukáš Hodis"
               position={translate("lukasTitle")}
               img="bg-[url('/team/lukas.webp')]"
-              bio={translate("kubaBio")}
+              bio={translate("lukasBio")}
             />
             <ProfileItem
               name="David Alexa"
               position={translate("davidTitle")}
               img=" bg-[url('/team/david.webp')]"
-              bio={translate("kubaBio")}
+              bio={translate("davidBio")}
             />
             <ProfileItem
               name="Martina Vysloužilová"
