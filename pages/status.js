@@ -18,7 +18,7 @@ export default function Status() {
 
   useEffect(() => {
     fetchJSON();
-    setInterval(fetchJSON, 10000);
+    setInterval(fetchJSON, 5000);
   }, []);
 
   return (
