@@ -56,9 +56,9 @@ export default function Status() {
               ))}
           </div>
         </div>
-        <div className="flex w-1/2">
+        <div className="flex w-1/2 ">
           <div className="flex flex-col text-center pl-4 pr-20 w-full h-full ">
-            <div className=" flex bg-white w-full  rounded-3xl shadow-lg p-5  ">
+            <div className=" flex bg-white w-full  rounded-3xl shadow-lg p-5 mx-auto max-w-[460px] ">
               <Image
                 src="/assets/qrcode.webp"
                 alt="qr"
