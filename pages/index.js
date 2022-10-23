@@ -175,7 +175,7 @@ export default function Home() {
       </div>
 
       <div className="relative bg-white">
-        <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
+        <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-10">
           <Image
             src={"/assets/ripped.webp"}
             alt="divider"
@@ -183,10 +183,18 @@ export default function Home() {
             unselectable
           />
         </div>
+        <div className="absolute z-0  w-max">
+          <Image
+            src="/assets/circles.webp"
+            width={1085}
+            height={2799}
+            alt="circles"
+          />
+        </div>
         <div className="absolute -top-40 sm:-top-80  right-0 left-0 flex flex-col w-full max-w-6xl mx-auto py-20 px-9 z-30">
           <div className="h-96  sm:h-[642px] w-full bg-slate-400 bg-[url('/assets/home_main.webp')] bg-cover"></div>
         </div>
-        <div className="flex flex-col max-w-6xl mx-auto mt-80 pt-96 bg-white text-center">
+        <div className="flex flex-col relative max-w-6xl mx-auto mt-80 pt-96  text-center z-10">
           <div className=" text-[50px] sm:text-[80px] text-[#23211E] leading-none font-['Bebas_Neue'] mt-28 uppercase">
             {translate("aboutArthur")}
           </div>
