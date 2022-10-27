@@ -262,7 +262,7 @@ export default function Footer() {
           />
         </a>
         <a
-          href="https://www.fotopast.cz/"
+          href="https://www.olomouc.eu/"
           target="_blank"
           rel="noopener noreferrer"
         >
