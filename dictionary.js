@@ -35,11 +35,11 @@ module.exports = {
       "Get involved in active conservation of endangered species in Central Africa through Save-Elephants.",
     supportTile1Title: "Donate",
     supportTile1Description:
-      "All the funds raised will go to Save-Elephants' transparent account and will be used to support conservation activities in the Tsoulou region, South-West Congo.",
+      "All the funds raised will go to Save-Elephants' transparent account and will be used to support conservation activities in the Tsoulou region.",
     backstageTitle: "Project backstage",
     backstageDescription:
       "We are passionate filmmakers who are looking for interesting stories that can raise important social issues. The protection of endangered animal species is undoubtedly one of them. This is why our journey took us to Arthur and his extraordinary story, which we would like to tell in order to engage as many of you as possible in making a difference.",
-    contactTitle: "Do you want to get in touch with us?",
+    contactTitle: "Do you want to get in touch?",
     generalPartner: "general partner",
     mainPartners: "main partners",
     mediaPartners: "media partners",
@@ -68,7 +68,7 @@ module.exports = {
     ladaTitle: "Social media consultant",
     ladaBio:
       "Science popularizer and social media specialist. Co-founder of the site Vědátor, who slightly advised on the promotion of the film on the worst invention since the atomic bomb - namely Facebook.",
-    production: "movie production",
+    production: "film production",
     mediaPr: "MEDIA & PR",
     publicScreening: "Film public screening",
   },

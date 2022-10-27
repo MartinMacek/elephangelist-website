@@ -8,7 +8,7 @@ export default function HomePageRow(props) {
     >
       <div
         className={
-          "sm:w-1/2 h-[417px] bg-cover " +
+          "sm:w-1/2 h-[417px] bg-cover bg-center " +
           props.img +
           (props.reversed ? " ml-9 sm:ml-0" : " mr-9 sm:mr-0")
         }

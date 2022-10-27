@@ -37,7 +37,13 @@ export default function Contact() {
                   info@save-elephants.org
                 </a>
               </div>
-              <div>@saveelephantscz </div>
+              <a
+                href="https://www.instagram.com/saveelephantscz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>@saveelephantscz </div>
+              </a>
             </div>
 
             <div className="flex flex-col text-2xl lg:mx-auto">
@@ -49,7 +55,13 @@ export default function Contact() {
               <div>
                 <a href="mailto:lhodis@seznam.cz">lhodis@seznam.cz</a>
               </div>
-              <div>@lukashodis </div>
+              <a
+                href="https://www.instagram.com/lukashodis/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>@lukashodis</div>
+              </a>
             </div>
 
             <div className="flex flex-col text-2xl lg:mx-auto ">
@@ -70,7 +82,7 @@ export default function Contact() {
             </div>
           </div>
           <div className=" relative z-20 text-center mt-36 underline text-xl">
-            <a href="https://drive.google.com/file/d/1L60u25C1T5tJ60Z-0hMN2X_w4tCeZsOK/view?fbclid=IwAR1DSR6zGGMk5G3ldmrA3HV2o1qn5aXAeZBdFSi8YidQQJXccS4gng7wmKQ">
+            <a href="https://drive.google.com/file/d/1y6BET1ItAmpWxhkU6udOtYfYtySvgNub/view">
               {translate("pressRelease")}
             </a>
           </div>

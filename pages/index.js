@@ -183,7 +183,7 @@ export default function Home() {
             unselectable
           />
         </div>
-        <div className="absolute z-0  w-max">
+        <div className="absolute z-0  w-max opacity-50">
           <Image
             src="/assets/circles.webp"
             width={1085}

@@ -261,6 +261,20 @@ export default function Footer() {
             blurDataURL="/partners/blackpoint.svg"
           />
         </a>
+        <a
+          href="https://www.fotopast.cz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/partners/olomouc.webp"
+            alt="partner"
+            width={154}
+            height={84}
+            placeholder="blur"
+            blurDataURL="/partners/olomouc.webp"
+          />
+        </a>
       </div>
       <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
       <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
