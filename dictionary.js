@@ -26,7 +26,7 @@ module.exports = {
       "Get involved in fundraising and volunteering and help Arthur extend his activities to protect elephants and other endangered species in the Congo.",
     whoSupported: "Who has already supported Arthur?",
     whoSupportedContent:
-      "Technology plays a crucial role in the conservation of endangered species. This is also why Huawei decided to support us: their Tech4All project is a long-term contribution to the protection of biodiversity worldwide. Take a backstage look with Arthur at Neusiedler See in Austria where Guardian technologies have been helping for over a year.",
+      "Technology plays a crucial role in the conservation of endangered species. This is also why our new documentary is supported by Huawei, whose project Tech4All contributes to the protection of biodiversity across the planet in the long term. Take a backstage look with Arthur at Neusiedler See in Austria where Guardian technologies have been helping for over a year.",
     supportTile3Title: "Learn more",
     supportTile3Description:
       "Act responsibly towards nature and animals and find out how you can help protect them on an everyday basis.",
@@ -50,19 +50,18 @@ module.exports = {
     kubaTitle: "Director, DOP",
     kubaBio:
       "Film director with experience in international projects. He specializes in documentary filmmaking and telling unique stories that can make the viewers take action. In addition to directing, he was also in charge of editing, colour-grading and sound design within the project.",
-    radekTitle: "Director of photography and photographer",
+    radekTitle: "Cameraman and photographer",
     radekBio:
-      "He worked for major Czech and international companies and gradually got to photographing and filming wildlife. As a director of photography and wildlife photographer he was responsible for the accompanying footage, pictures of animals and the actual backstage filming in the Congo.",
+      "He worked for major Czech and international companies and gradually got to photographing and filming wildlife. As a cameraman and wildlife photographer he was responsible for the accompanying footage, pictures of animals and the actual backstage filming in the Congo.",
     lukasTitle: "Producer",
-    lukasBio:
-      "He has been involved in production since 2019. Last year he filmed the successful documentary 'Sludge Worms' which drew attention to prejudice in society. In this project he was in charge of fundraising, promotion and team organization.",
-    davidTitle: "Producer and consultant",
+    lukasBio: `He has been involved in production since 2019. Last year he filmed the successful documentary "Thread girls" which drew attention to prejudice in society. In this project he was in charge of fundraising, promotion and team organisation.`,
+    davidTitle: "Production and consultant",
     davidBio:
       "He has travelled to every continent in the world and could see global environmental problems firsthand. Nowadays he deals in corporate sustainability consulting. In this project he contributed with his expertise in terms of content, production and communication.",
-    martinaTitle: "PR agent",
+    martinaTitle: "PR representative",
     martinaBio:
       "She has been working in the field of media communication for over 10 years. She previously used to work as an editor at Czech Television. She has experience in the field of PR both in editorial work and in representing individual projects, such as the AFO film festival. In this documentary she is responsible for communication with media and preparation of media releases.",
-    martinTitle: "Graphical designer",
+    martinTitle: "Graphic Designer",
     martinBio:
       "Graphic designer with a focus on web design and digital products. He has been trying to interest people through his visual creation since high school, where he was 'absorbed' by digital tools. Now he works as a freelancer with several companies and agencies. As part of the project, he was in charge of web design.",
     ladaTitle: "Social media consultant",

@@ -49,7 +49,7 @@ export default function Home() {
         }
         onClick={() => setVideoOpen(false)}
       >
-        <div className="flex flex-col h-screen ">
+        <div className="flex flex-col max-h-screen overflow-scroll">
           <div className="flex flex-row w-full justify-end">
             <div
               className=" right-0 cursor-pointer place-self-end px-6 py-8 mt-5 mr-2"
@@ -63,7 +63,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="relative flex flex-col max-w-7xl mx-auto pb-20  px-7 w-full z-10">
+          <div className="relative flex flex-col max-w-7xl mx-auto pb-20 px-7 w-full z-10">
             <YoutubeEmbed embedId="hrvKWnFH5Ko" />
           </div>
         </div>
@@ -181,6 +181,14 @@ export default function Home() {
             alt="divider"
             layout="fill"
             unselectable
+          />
+        </div>
+        <div className="absolute z-0  w-max opacity-50 rotate-180 right-0 top-[2800px] md:top-[1600px]">
+          <Image
+            src="/assets/circles.webp"
+            width={1085}
+            height={2799}
+            alt="circles"
           />
         </div>
         <div className="absolute z-0  w-max opacity-50">

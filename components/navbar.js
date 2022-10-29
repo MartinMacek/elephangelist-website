@@ -16,7 +16,7 @@ export default function Navbar() {
           (menuOpen ? "fixed" : "hidden")
         }
       >
-        <div className="flex flex-col h-screen ">
+        <div className="flex flex-col h-screen overflow-scroll ">
           <div className="flex flex-row w-full">
             <div className="flex m-auto mt-[48px] ml-5 ">
               <Link href="/">
@@ -42,8 +42,8 @@ export default function Navbar() {
               />
             </div>
           </div>
-          <div className="flex flex-col text-right my-auto px-12 text-[#F5F3E1] font-['Bebas_Neue'] text-[50px] font-bold gap-y-10">
-            <div className=" text-xl">
+          <div className="flex flex-col text-right my-auto px-12 text-[#F5F3E1] font-['Bebas_Neue'] text-[45px] xs:text-[50px] font-bold gap-5 xs:gap-y-10">
+            <div className="text-xl">
               <Link href={router.route} locale="cs">
                 <span
                   className={
@@ -103,8 +103,7 @@ export default function Navbar() {
       </div>
       <div
         className={
-          " absolute top-0 left-0 right-0 flex flex-row mx-5 md:mx-[70px] mt-[42px] sm:border-b border-[#F5F3E1] border-opacity-20 text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] " +
-          (router.asPath == "/contact" && " invert")
+          " absolute top-0 left-0 right-0 flex flex-row mx-5 md:mx-[70px] mt-[42px] sm:border-b border-[#F5F3E1] border-opacity-20 text-[#F5F3E1] font-bold text-[25px] font-['Bebas_Neue'] "
         }
       >
         <div className=" pb-7 flex flex-row justify-between w-full items-center">
