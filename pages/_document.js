@@ -44,7 +44,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://www.elephangelist.cz/assets/og_image.png"
+          content="https://www.elephangelist.cz/assets/og_image.jpg"
         />
 
         {/* <!-- Twitter --> */}
