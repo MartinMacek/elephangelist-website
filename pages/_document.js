@@ -31,7 +31,7 @@ export default function Document() {
         <meta name="title" content="The Elephangelist" />
         <meta
           name="description"
-          content="Příběh Čecha, který mění osudy zvířat v Africe"
+          content="Poznejte příběh Arthura a pomozte mu ochránit slony před vyhynutím"
         />
 
         {/* <!-- Open Graph / Facebook --> */}
@@ -40,7 +40,7 @@ export default function Document() {
         <meta property="og:title" content="The Elephangelist" />
         <meta
           property="og:description"
-          content="Příběh Čecha, který mění osudy zvířat v Africe"
+          content="Poznejte příběh Arthura a pomozte mu ochránit slony před vyhynutím"
         />
         <meta
           property="og:image"
@@ -53,11 +53,11 @@ export default function Document() {
         <meta property="twitter:title" content="The Elephangelist" />
         <meta
           property="twitter:description"
-          content="Příběh Čecha, který mění osudy zvířat v Africe"
+          content="Poznejte příběh Arthura a pomozte mu ochránit slony před vyhynutím"
         />
         <meta
           property="twitter:image"
-          content="https://www.elephangelist.cz/assets/og_image.png"
+          content="https://www.elephangelist.cz/assets/og_image.jpg"
         ></meta>
       </Head>
       <body>
