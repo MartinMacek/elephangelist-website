@@ -2,6 +2,7 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import ProfileItem from "../components/profile-item";
+import SlideShow from "../components/slide-show";
 import { useTranslation } from "../utils/translateHook";
 
 export default function Backstage() {
@@ -71,11 +72,19 @@ export default function Backstage() {
           </div>
         </div>
       </div>
-      <div className="relative h-72 bg-white">
+      <div className="relative h-[180px] bg-white">
         <div className="absolute h-[180px] w-full min-w-[1467px] top-0 z-0">
           <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
         </div>
       </div>
+      <div className="flex flex-col bg-white text-black w-full">
+        <div className="flex max-w-6xl mx-auto text-center text-[55px] sm:text-[90px] leading-tight font-['Bebas_Neue'] mt-24">
+          jak probíhalo natáčení
+        </div>
+
+        <SlideShow />
+      </div>
+
       <Footer />
     </div>
   );
