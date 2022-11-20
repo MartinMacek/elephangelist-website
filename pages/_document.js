@@ -28,20 +28,19 @@ export default function Document() {
 
         {/* <!-- Primary Meta Tags --> */}
 
-        <meta name="title" content="The Elephangelist" />
         <meta
-          name="description"
+          name="title"
           content="Poznejte příběh Arthura a pomozte mu ochránit slony před vyhynutím"
         />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.elephangelist.cz" />
-        <meta property="og:title" content="The Elephangelist" />
         <meta
-          property="og:description"
+          property="og:title"
           content="Poznejte příběh Arthura a pomozte mu ochránit slony před vyhynutím"
         />
+
         <meta
           property="og:image"
           content="https://www.elephangelist.cz/assets/og_image.jpg"
@@ -50,11 +49,11 @@ export default function Document() {
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.elephangelist.cz" />
-        <meta property="twitter:title" content="The Elephangelist" />
         <meta
-          property="twitter:description"
+          property="twitter:title"
           content="Poznejte příběh Arthura a pomozte mu ochránit slony před vyhynutím"
         />
+
         <meta
           property="twitter:image"
           content="https://www.elephangelist.cz/assets/og_image.jpg"
