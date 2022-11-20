@@ -1,6 +1,7 @@
 import { Slide, SlideshowRef } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import React, { useRef, useState } from "react";
+import Image from "next/image";
 
 export default function SlideShow() {
   const slideRef = useRef(null);
@@ -8,7 +9,8 @@ export default function SlideShow() {
 
   const slideImages = [
     {
-      url: "/assets/home_img1.webp",
+      url1: "/gallery/slide1-1.webp",
+      wide: true,
       caption: `Bylo nás pět. Společně s devatenácti
       zavazadly jsme se v polovině
       července vydali na misi do afrického
@@ -17,7 +19,9 @@ export default function SlideShow() {
       Arthur Sniegon.`,
     },
     {
-      url: "/assets/home_img2.webp",
+      url1: "/gallery/slide2-1.webp",
+      url2: "/gallery/slide2-2.webp",
+      wide: false,
       caption: `Po dvanácti hodinách jsme přistáli
       v hlavním městě Konga - Brazzaville.
       Bohužel však s chybějícím Lukášovým
@@ -28,7 +32,8 @@ export default function SlideShow() {
       Lefini.`,
     },
     {
-      url: "/assets/home_img3.webp",
+      url1: "/gallery/slide3-1.webp",
+      wide: false,
       caption: `Přírodní chráněná rezervace Lefini je
       území rozprostírající se v náhorní
       plošině o rozloze 6300 km2. Původně
@@ -43,7 +48,8 @@ export default function SlideShow() {
       okolí.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide4-1.webp",
+      wide: true,
       caption: `Údolím deštného pralesa protéká
       průzračně čistá řeka Nambouli. Jelikož
       jsme narazili na první sloní stopy,
@@ -51,7 +57,9 @@ export default function SlideShow() {
       nohavice a vydali se po stopách dále.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide5-1.webp",
+      url2: "/gallery/slide5-2.webp",
+      wide: false,
       caption: `Během několika minut se na nás vrhly
       desítky muchniček, jejichž kousnutí
       nás provázela až po zbytek cesty.
@@ -64,7 +72,8 @@ export default function SlideShow() {
       vytahováním.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide6-1.webp",
+      wide: false,
       caption: `Našli jsme ideální úkryt s výhledem na
       koryto řeky. Následující tři dny jsme
       strávili vyčkáváním, zda se sloni
@@ -73,7 +82,9 @@ export default function SlideShow() {
       dalších dnů.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide7-1.webp",
+      url2: "/gallery/slide7-2.webp",
+      wide: false,
       caption: `Náš jídelníček tvořila dvě teplá jídla
       denně. Naprostá většina našich
       pokrmů byla vegetariánská či
@@ -82,14 +93,17 @@ export default function SlideShow() {
       ochutnávka larev nosatce palmového.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide8-1.webp",
+      url2: "/gallery/slide8-2.webp",
+      wide: false,
       caption: `Po třech nocích strávených v Lefini
       jsme se vydali na okraj rezervace
       Tsoulou do vesnice Leboulou. Jelikož
       nás jelo 7, museli jsme improvizovat.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide9-1.webp",
+      wide: false,
       caption: `Nejdříve jsme se ale zastavili ve městě
       Dolisie pro všechna potřebná povolení.
       Víte, kdo je českou spojkou v této
@@ -102,7 +116,9 @@ export default function SlideShow() {
       stále považuje za svůj druhý domov.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide10-1.webp",
+      url2: "/gallery/slide10-2.webp",
+      wide: false,
       caption: `Dorazili jsme do vesnice Leboulou, kde
       nám místní v zápětí sdělili, že před
       pěti minutami přešli dva velcí sloni
@@ -115,7 +131,8 @@ export default function SlideShow() {
       štěstí.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide11-1.webp",
+      wide: false,
       caption: `Jelikož se náš řidič vrátil do města
       a v oblasti nebyla dostupná další
       auta, nezbývalo nám nic jiného, než
@@ -127,26 +144,32 @@ export default function SlideShow() {
       mysleli jsme, že je naše poslední.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide12-1.webp",
+      url2: "/gallery/slide12-2.webp",
+      wide: false,
       caption: `Nakonec jsme se na motorkách
       opravdu dvakrát vybourali a je až k
       neuvěření, že jediným zraněním byl
       tento malý škrábanec.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide13-1.webp",
+      url2: "/gallery/slide13-2.webp",
+      wide: false,
       caption: `Celé dny jsme procházeli husté
       pralesy a zarostlé savany s cílem
       vystopovat volně žijící slony pralesní.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide14-1.webp",
+      wide: true,
       caption: `Častokrát jsme se vraceli až za tmy,
       špinaví, hladoví a bez jediného záběru
       slona.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide15-1.webp",
+      wide: true,
       caption: `Večer jsme tak nacházeli alespoň malou
       útěchu v místním podniku u Daria, kde
       jsme popíjeli konžské pivo Ngok. Místní
@@ -156,7 +179,9 @@ export default function SlideShow() {
       působil.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide16-1.webp",
+      url2: "/gallery/slide16-2.webp",
+      wide: false,
       caption: `Potvrdili jsme si, že najít a vidět slony
       ve volné přírodě začíná být opravdu
       vzácné. Podle odhadů by díky tempu
@@ -168,7 +193,8 @@ export default function SlideShow() {
       na travnaté savaně.`,
     },
     {
-      url: "",
+      url1: "",
+      wide: true,
       caption: `Na konci našeho pobytu v oblasti
       Leboulou jsme na jedné z výprav objevili
       také pro střední Afriku typickou salinu,
@@ -182,7 +208,8 @@ export default function SlideShow() {
       místě.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide18-1.webp",
+      wide: true,
       caption: `Rozhodli jsme se poprvé od příjezdu do
       Konga rozdělit.
       
@@ -195,7 +222,8 @@ export default function SlideShow() {
       řeky, přesně za dva dny.`,
     },
     {
-      url: "",
+      url1: "",
+      wide: true,
       caption: `Wakiri: "Kam vyrážíte?"
       My: "Jdeme nocovat do pralesa"
       Wakiri: "Tak hodně štěstí."
@@ -208,14 +236,18 @@ export default function SlideShow() {
       slov si pobyt v divočině příliš neužívá.`,
     },
     {
-      url: "",
+      url1: "",
+      url2: "/gallery/slide20-2.webp",
+      wide: false,
       caption: `Čekání na Godota. Dvanáct hodin,
       nehybně v absolutní tichosti. Za stromy
       jsme slyšeli pasoucí se slony, pod
       nohama nám proplula kobra černá.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide21-1.webp",
+      url2: "/gallery/slide21-2.webp",
+      wide: false,
       caption: `Za soumraku jsme rozdělali stan,
       snědli připravenou večeři a uložili se
       ke spánku. V ten moment jsme ještě
@@ -228,7 +260,9 @@ export default function SlideShow() {
       Díky bohu za antimalarika.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide22-1.webp",
+      url2: "/gallery/slide22-2.webp",
+      wide: false,
       caption: `Mezitím se někde na opačné straně
       rezervace, desítky kilometrů od nás,
       plavila druhá skupinka v čele s Arthurem,
@@ -242,7 +276,9 @@ export default function SlideShow() {
       vzácných druhů zvířat, ale také pytláků.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide23-1.webp",
+      url2: "/gallery/slide23-2.webp",
+      wide: false,
       caption: `Příští den nás čekala pětihodinová
       prašná cesta z Leboulou do Mila Mila
       a dále na místo setkání s ostatními.
@@ -255,7 +291,9 @@ export default function SlideShow() {
       po mrtvé cibetky a antilopy.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide24-1.webp",
+
+      wide: false,
       caption: `Po strastiplné cestě jsme dorazili k Modré
       řece, nevyspaní, unavení, špinaví. Jelikož
       nás nic dalšího ten den nečekalo, skočili
@@ -271,7 +309,9 @@ export default function SlideShow() {
       Neměli jsme ani čas vzít si boty.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide25-1.webp",
+      url2: "/gallery/slide25-2.webp",
+      wide: false,
       caption: `Během několika chvil jsme pádlovali
       uprostřed široké řeky Niary a blížili se
       k nejnebezpečnějším savcům Afriky,
@@ -286,7 +326,9 @@ export default function SlideShow() {
       ale pod vodou." odpověděl Arthur.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide26-1.webp",
+      url2: "/gallery/slide26-2.webp",
+      wide: false,
       caption: `Začalo se stmívat, proto jsme se vydali
       zpět k našemu táboru. Napadlo nás
       zkrátit si cestu jinudy, ale tato myšlenka
@@ -302,7 +344,9 @@ export default function SlideShow() {
       se mohlo na první pohled zdát.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide27-1.webp",
+
+      wide: true,
       caption: `Předposlední den nás čekal výšlap
       přes neprostupný terén na vrcholky
       čokoládových pahorků.
@@ -317,7 +361,9 @@ export default function SlideShow() {
       úsměv rychle přešel.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide28-1.webp",
+      url2: "/gallery/slide28-2.webp",
+      wide: false,
       caption: `Poté, co jsme dorazili k autu, nám řidič
       řekl, že se musíme vrátit s jedním z
       místních zpět do tábora. Arthur jel
@@ -335,7 +381,9 @@ export default function SlideShow() {
       hadička u chladiče!"`,
     },
     {
-      url: "",
+      url1: "/gallery/slide29-1.webp",
+      url2: "/gallery/slide29-2.webp",
+      wide: false,
       caption: `Věděli jste, že se dá vyrobit provizorní
       lepidlo z banánu, sunaru a vody?
       
@@ -346,7 +394,9 @@ export default function SlideShow() {
       do postele.`,
     },
     {
-      url: "",
+      url1: "/gallery/slide30-1.webp",
+
+      wide: false,
       caption: `Poslední den jsme se v pořádku
       dopravili do Brazzaville, dali si
       společnou večeři a zasmáli se nad
@@ -370,7 +420,7 @@ export default function SlideShow() {
     easing: "ease",
   };
 
-  const eachSlideClass = "bg-center bg-cover h-64 md:h-[692px]";
+  const eachSlideClass = "bg-center bg-cover h-64 md:h-[692px] ";
 
   return (
     <div className="flex flex-col w-full md:flex-row max-w-7xl mx-auto gap-x-6 xl:gap-x-12 mt-16 mb-60">
@@ -381,19 +431,33 @@ export default function SlideShow() {
           onChange={(from, to) => setSlideIndex(to)}
         >
           {slideImages.map((slideImage, index) => (
-            <div className="each-slide" key={index}>
-              <div
-                style={{
-                  backgroundImage: `url(${slideImage.url})`,
-                }}
-                className={eachSlideClass}
-              ></div>
+            <div className="each-slide block" key={index}>
+              <div className="flex gap-x-2 md:gap-x-6 justify-center">
+                <div
+                  style={{
+                    backgroundImage: `url(${slideImage.url1})`,
+                  }}
+                  className={
+                    eachSlideClass + (slideImage.wide ? "w-full" : " w-1/2")
+                  }
+                ></div>
+                {slideImage.url2 && (
+                  <div
+                    style={{
+                      backgroundImage: `url(${slideImage.url2})`,
+                    }}
+                    className={
+                      eachSlideClass + (slideImage.wide ? "" : " w-1/2")
+                    }
+                  ></div>
+                )}
+              </div>
             </div>
           ))}
         </Slide>
       </div>
       <div className="flex w-full md:w-1/2 lg:w-1/4 overflow-hidden p-2">
-        <div className="flex flex-col">
+        <div className="flex flex-col mx-5 md:mx-0 md:mt-12">
           <div className="flex flex-row md:flex-col justify-between">
             <div className="flex flex-row font-['Bebas_Neue']">
               <div className="text-[80px] md:text-[137px] leading-none">
@@ -405,16 +469,34 @@ export default function SlideShow() {
             </div>
             <div className="flex flex-row gap-x-3 md:my-6">
               <div
-                className="w-8 md:w-12 h-8 md:h-12  bg-[#BCAE7E] rounded-full cursor-pointer"
+                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer items-center flex justify-center pr-1"
                 onClick={() => slideRef.current.goBack()}
-              ></div>
+              >
+                <Image
+                  src="/assets/chevron-left.svg"
+                  width={24}
+                  height={24}
+                  alt="icon"
+                  className="scale-75 md:scale-100"
+                />
+              </div>
               <div
-                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer"
+                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer items-center flex justify-center pl-1"
                 onClick={() => slideRef.current.goNext()}
-              ></div>
+              >
+                <Image
+                  src="/assets/chevron-left.svg"
+                  width={24}
+                  height={24}
+                  alt="icon"
+                  className="rotate-180 scale-75 md:scale-100"
+                />
+              </div>
             </div>
           </div>
-          <div className="pr-2">{slideImages[slideIndex].caption}</div>
+          <div className="pr-2 whitespace-pre-line text-base text-[#23211E]">
+            {slideImages[slideIndex].caption}
+          </div>
         </div>
       </div>
     </div>
