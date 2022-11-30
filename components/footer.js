@@ -261,20 +261,38 @@ export default function Footer() {
             blurDataURL="/partners/blackpoint.svg"
           />
         </a>
-        <a
-          href="https://www.olomouc.eu/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/partners/olomouc.webp"
-            alt="partner"
-            width={154}
-            height={84}
-            placeholder="blur"
-            blurDataURL="/partners/olomouc.webp"
-          />
-        </a>
+        <div className="my-auto">
+          <a
+            href="https://www.olomouc.eu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/partners/olomouc.webp"
+              alt="partner"
+              width={154}
+              height={84}
+              placeholder="blur"
+              blurDataURL="/partners/olomouc.webp"
+            />
+          </a>
+        </div>
+        <div className="my-auto">
+          <a
+            href="https://drfg-nadace.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/partners/DRFG.webp"
+              alt="partner"
+              width={154}
+              height={44.6}
+              placeholder="blur"
+              blurDataURL="/partners/DRFG.webp"
+            />
+          </a>
+        </div>
       </div>
       <span className="mt-20 uppercase">{translate("mediaPartners")}</span>
       <div className="flex flex-row mx-auto mt-11 gap-x-4 sm:gap-x-12 px-4">
