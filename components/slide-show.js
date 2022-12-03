@@ -193,7 +193,7 @@ export default function SlideShow() {
       na travnaté savaně.`,
     },
     {
-      url1: "",
+      url1: "/gallery/slide17-1.webp",
       wide: true,
       caption: `Na konci našeho pobytu v oblasti
       Leboulou jsme na jedné z výprav objevili
@@ -222,7 +222,7 @@ export default function SlideShow() {
       řeky, přesně za dva dny.`,
     },
     {
-      url1: "",
+      url1: "/gallery/slide19-1.webp",
       wide: true,
       caption: `Wakiri: "Kam vyrážíte?"
       My: "Jdeme nocovat do pralesa"
@@ -236,7 +236,7 @@ export default function SlideShow() {
       slov si pobyt v divočině příliš neužívá.`,
     },
     {
-      url1: "",
+      url1: "/gallery/slide20-1.webp",
       url2: "/gallery/slide20-2.webp",
       wide: false,
       caption: `Čekání na Godota. Dvanáct hodin,
