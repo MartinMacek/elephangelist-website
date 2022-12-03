@@ -11,215 +11,111 @@ export default function SlideShow() {
     {
       url1: "/gallery/slide1-1.webp",
       wide: true,
-      caption: `Bylo nás pět. Společně s devatenácti
-      zavazadly jsme se v polovině
-      července vydali na misi do afrického
-      Konga. Zleva: Radek Karko, Jakub
-      Chlouba, Lukáš Hodis, David Alexa a
-      Arthur Sniegon.`,
+      caption: `Bylo nás pět. Společně s devatenácti zavazadly jsme se v polovině července vydali na misi do afrického Konga. Zleva: Radek Karko, Jakub Chlouba, Lukáš Hodis, David Alexa a Arthur Sniegon.`,
     },
     {
       url1: "/gallery/slide2-1.webp",
       url2: "/gallery/slide2-2.webp",
       wide: false,
-      caption: `Po dvanácti hodinách jsme přistáli
-      v hlavním městě Konga - Brazzaville.
-      Bohužel však s chybějícím Lukášovým
-      kufrem, který zůstal v Etiopii. Z letiště
-      jsme zamířili na honorární konzulát,
-      přebalili batohy, složili se Lukášovi na
-      oblečení a vydali se do rezervace
-      Lefini.`,
+      caption: `Po dvanácti hodinách jsme přistáli v hlavním městě Konga - Brazzaville. Bohužel však s chybějícím Lukášovým kufrem, který zůstal v Etiopii. Z letiště jsme zamířili na honorární konzulát, přebalili batohy, složili se Lukášovi na oblečení a vydali se do rezervace Lefini.`,
     },
     {
       url1: "/gallery/slide3-1.webp",
       wide: false,
-      caption: `Přírodní chráněná rezervace Lefini je
-      území rozprostírající se v náhorní
-      plošině o rozloze 6300 km2. Původně
-      sloužila jako útočiště pro reintrodukci
-      goril osiřelých nelegálním obchodem
-      s masem. Přestože se nachází pouze
-      200 km od hlavního města Konga -
-      Brazzaville, vyskytují se zde velcí
-      afričtí savci jako jsou buvoli, hroši,
-      levharti nebo sloni pralesní. Ihned
-      jsme se proto vydali prozkoumat
-      okolí.`,
+      caption: `Přírodní chráněná rezervace Lefini je území rozprostírající se v náhorní plošině o rozloze 6300 km2. Původně sloužila jako útočiště pro reintrodukci goril osiřelých nelegálním obchodem s masem. Přestože se nachází pouze 200 km od hlavního města Konga - Brazzaville, vyskytují se zde velcí afričtí savci jako jsou buvoli, hroši, levharti nebo sloni pralesní. Ihned jsme se proto vydali prozkoumat okolí.`,
     },
     {
       url1: "/gallery/slide4-1.webp",
       wide: true,
-      caption: `Údolím deštného pralesa protéká
-      průzračně čistá řeka Nambouli. Jelikož
-      jsme narazili na první sloní stopy,
-      neváhali jsme ani chvíli, vyhrnuli
-      nohavice a vydali se po stopách dále.`,
+      caption: `Údolím deštného pralesa protéká průzračně čistá řeka Nambouli. Jelikož jsme narazili na první sloní stopy, neváhali jsme ani chvíli, vyhrnuli nohavice a vydali se po stopách dále.`,
     },
     {
       url1: "/gallery/slide5-1.webp",
       url2: "/gallery/slide5-2.webp",
       wide: false,
-      caption: `Během několika minut se na nás vrhly
-      desítky muchniček, jejichž kousnutí
-      nás provázela až po zbytek cesty.
+      caption: `Během několika minut se na nás vrhly desítky muchniček, jejichž kousnutí nás provázela až po zbytek cesty.
       Pravidlo č.1 : Vždy noste dlouhý rukáv!
       
-      V případě klíšťat ale nepomohly ani
-      ty. Dohromady jsme jich za celou
-      výpravu napočítali kolem 20 na osobu
-      a trávili společné chvíle jejich
-      vytahováním.`,
+      V případě klíšťat ale nepomohly ani ty. Dohromady jsme jich za celou výpravu napočítali kolem 20 na osobu a trávili společné chvíle jejich vytahováním.`,
     },
     {
       url1: "/gallery/slide6-1.webp",
       wide: false,
-      caption: `Našli jsme ideální úkryt s výhledem na
-      koryto řeky. Následující tři dny jsme
-      strávili vyčkáváním, zda se sloni
-      pralesní objeví. Štěstí jsme nakonec
-      neměli a museli si tak počkat do
-      dalších dnů.`,
+      caption: `Našli jsme ideální úkryt s výhledem na koryto řeky. Následující tři dny jsme strávili vyčkáváním, zda se sloni pralesní objeví. Štěstí jsme nakonec neměli a museli si tak počkat do dalších dnů.`,
     },
     {
       url1: "/gallery/slide7-1.webp",
       url2: "/gallery/slide7-2.webp",
       wide: false,
-      caption: `Náš jídelníček tvořila dvě teplá jídla
-      denně. Naprostá většina našich
-      pokrmů byla vegetariánská či
-      veganská, Rýže, fazole, lokální
-      zelenina a ovoce. Výjimkou byla
-      ochutnávka larev nosatce palmového.`,
+      caption: `Náš jídelníček tvořila dvě teplá jídla denně. Naprostá většina našich pokrmů byla vegetariánská či veganská, Rýže, fazole, lokální zelenina a ovoce. Výjimkou byla ochutnávka larev nosatce palmového.`,
     },
     {
       url1: "/gallery/slide8-1.webp",
       url2: "/gallery/slide8-2.webp",
       wide: false,
-      caption: `Po třech nocích strávených v Lefini
-      jsme se vydali na okraj rezervace
-      Tsoulou do vesnice Leboulou. Jelikož
-      nás jelo 7, museli jsme improvizovat.`,
+      caption: `Po třech nocích strávených v Lefini jsme se vydali na okraj rezervace Tsoulou do vesnice Leboulou. Jelikož nás jelo 7, museli jsme improvizovat.`,
     },
     {
       url1: "/gallery/slide9-1.webp",
       wide: false,
-      caption: `Nejdříve jsme se ale zastavili ve městě
-      Dolisie pro všechna potřebná povolení.
-      Víte, kdo je českou spojkou v této
-      oblasti? Nikdo jiný než Mireček z filmu
-      Jak básníci přicházejí o iluze. Vlastním
-      jménem Joseph Dielle. V 80. letech
-      studoval režii na FAMU v Praze,
-      momentálně ale žije zpátky v Kongu.
-      Češtinu sice pozapomněl, ale Česko
-      stále považuje za svůj druhý domov.`,
+      caption: `Nejdříve jsme se ale zastavili ve městě Dolisie pro všechna potřebná povolení. Víte, kdo je českou spojkou v této oblasti? Nikdo jiný než Mireček z filmu Jak básníci přicházejí o iluze. Vlastním jménem Joseph Dielle. V 80. letech studoval režii na FAMU v Praze, momentálně ale žije zpátky v Kongu. Češtinu sice pozapomněl, ale Česko stále považuje za svůj druhý domov.`,
     },
     {
       url1: "/gallery/slide10-1.webp",
       url2: "/gallery/slide10-2.webp",
       wide: false,
-      caption: `Dorazili jsme do vesnice Leboulou, kde
-      nám místní v zápětí sdělili, že před
-      pěti minutami přešli dva velcí sloni
-      přes cestu, jen pár kilometrů odtud.
-      Okamžitě jsme vyrazili stopovat. Sloni
-      jsou i přes svoji velikost neuvěřitelně
-      rychlí a dokáží se pohybovat
-      náročným terénem bez větších potíží.
-      Na blízké setkání jsme zatím neměli
-      štěstí.`,
+      caption: `Dorazili jsme do vesnice Leboulou, kde nám místní v zápětí sdělili, že před pěti minutami přešli dva velcí sloni přes cestu, jen pár kilometrů odtud. Okamžitě jsme vyrazili stopovat. Sloni jsou i přes svoji velikost neuvěřitelně rychlí a dokáží se pohybovat náročným terénem bez větších potíží. Na blízké setkání jsme zatím neměli štěstí.`,
     },
     {
       url1: "/gallery/slide11-1.webp",
       wide: false,
-      caption: `Jelikož se náš řidič vrátil do města
-      a v oblasti nebyla dostupná další
-      auta, nezbývalo nám nic jiného, než
-      si pronajmout jediné dvě motorky,
-      které se ve vesnici nacházely. Každý
-      den jsme se tak nedobrovolně
-      vydávali na 7 kilometrovou
-      strastiplnou cestu. Nebudeme lhát,
-      mysleli jsme, že je naše poslední.`,
+      caption: `Jelikož se náš řidič vrátil do města a v oblasti nebyla dostupná další auta, nezbývalo nám nic jiného, než si pronajmout jediné dvě motorky, které se ve vesnici nacházely. Každý den jsme se tak nedobrovolně vydávali na 7 kilometrovou strastiplnou cestu. Nebudeme lhát, mysleli jsme, že je naše poslední.`,
     },
     {
       url1: "/gallery/slide12-1.webp",
       url2: "/gallery/slide12-2.webp",
       wide: false,
-      caption: `Nakonec jsme se na motorkách
-      opravdu dvakrát vybourali a je až k
-      neuvěření, že jediným zraněním byl
-      tento malý škrábanec.`,
+      caption: `Nakonec jsme se na motorkách opravdu dvakrát vybourali a je až k neuvěření, že jediným zraněním byl tento malý škrábanec.`,
     },
     {
       url1: "/gallery/slide13-1.webp",
       url2: "/gallery/slide13-2.webp",
       wide: false,
-      caption: `Celé dny jsme procházeli husté
-      pralesy a zarostlé savany s cílem
-      vystopovat volně žijící slony pralesní.`,
+      caption: `Celé dny jsme procházeli husté pralesy a zarostlé savany s cílem vystopovat volně žijící slony pralesní.`,
     },
     {
       url1: "/gallery/slide14-1.webp",
       wide: true,
-      caption: `Častokrát jsme se vraceli až za tmy,
-      špinaví, hladoví a bez jediného záběru
-      slona.`,
+      caption: `Častokrát jsme se vraceli až za tmy, špinaví, hladoví a bez jediného záběru slona.`,
     },
     {
       url1: "/gallery/slide15-1.webp",
       wide: true,
-      caption: `Večer jsme tak nacházeli alespoň malou
-      útěchu v místním podniku u Daria, kde
-      jsme popíjeli konžské pivo Ngok. Místní
-      dokonce tvrdí, že za jeho typickou chutí
-      stojí český sládek, který tam v 80. letech,
-      díky spolupráci Konga a Československa,
-      působil.`,
+      caption: `Večer jsme tak nacházeli alespoň malou útěchu v místním podniku u Daria, kde jsme popíjeli konžské pivo Ngok. Místní dokonce tvrdí, že za jeho typickou chutí stojí český sládek, který tam v 80. letech, díky spolupráci Konga a Československa, působil.`,
     },
     {
       url1: "/gallery/slide16-1.webp",
       url2: "/gallery/slide16-2.webp",
       wide: false,
-      caption: `Potvrdili jsme si, že najít a vidět slony
-      ve volné přírodě začíná být opravdu
-      vzácné. Podle odhadů by díky tempu
-      jejich úbytku již v roce 2040 žádný
-      volně žijící slon nemusel existovat.
+      caption: `Potvrdili jsme si, že najít a vidět slony ve volné přírodě začíná být opravdu vzácné. Podle odhadů by díky tempu jejich úbytku již v roce 2040 žádný volně žijící slon nemusel existovat.
       
-      Na obrázku jeden z dronových záběrů,
-      kde jsme našli pár slonů pasoucí se
-      na travnaté savaně.`,
+      Na obrázku jeden z dronových záběrů, kde jsme našli pár slonů pasoucí se na travnaté savaně.`,
     },
     {
       url1: "/gallery/slide17-1.webp",
       wide: true,
-      caption: `Na konci našeho pobytu v oblasti
-      Leboulou jsme na jedné z výprav objevili
-      také pro střední Afriku typickou salinu,
-      Jde o světlinu v pralese, kde se mohou
-      shlukovat velcí savci. Šlo tak o nadějné
-      místo, kde bychom mohli slony vidět
-      z blízké vzdálenosti.
+      caption: `Na konci našeho pobytu v oblasti Leboulou jsme na jedné z výprav objevili také pro střední Afriku typickou salinu, Jde o světlinu v pralese, kde se mohou shlukovat velcí savci. Šlo tak o nadějné místo, kde bychom mohli slony vidět z blízké vzdálenosti.
       
-      Stálo před námi rozhodnutí, zda
-      pokračovat dle plánu nebo zůstat na
-      místě.`,
+      Stálo před námi rozhodnutí, zda pokračovat dle plánu nebo zůstat na místě.`,
     },
     {
       url1: "/gallery/slide18-1.webp",
       wide: true,
-      caption: `Rozhodli jsme se poprvé od příjezdu do
-      Konga rozdělit.
+      caption: `Rozhodli jsme se poprvé od příjezdu do Konga rozdělit.
       
-      Lukáš, Jakub a Arthur pokračovali dále na
-      lodích po řece, zatímco Radek s Davidem
-      zůstali další dva dny v pralese a číhali na
-      slony.
+      Lukáš, Jakub a Arthur pokračovali dále na lodích po řece, zatímco Radek s Davidem zůstali další dva dny v pralese a číhali na slony.
       
-      Domluvené místo setkání bylo u modré
-      řeky, přesně za dva dny.`,
+      Domluvené místo setkání bylo u modré řeky, přesně za dva dny.`,
     },
     {
       url1: "/gallery/slide19-1.webp",
@@ -230,184 +126,97 @@ export default function SlideShow() {
       My: "Ty jdeš s náma."
       Wakiri: "..."
       
-      Wakiri je synovcem Josepha "Mirečka"
-      Diella. Byl naší další spojkou v oblasti
-      Leboulou. Žije ve městě a podle jeho
-      slov si pobyt v divočině příliš neužívá.`,
+      Wakiri je synovcem Josepha "Mirečka" Diella. Byl naší další spojkou v oblasti Leboulou. Žije ve městě a podle jeho slov si pobyt v divočině příliš neužívá.`,
     },
     {
       url1: "/gallery/slide20-1.webp",
       url2: "/gallery/slide20-2.webp",
       wide: false,
-      caption: `Čekání na Godota. Dvanáct hodin,
-      nehybně v absolutní tichosti. Za stromy
-      jsme slyšeli pasoucí se slony, pod
-      nohama nám proplula kobra černá.`,
+      caption: `Čekání na Godota. Dvanáct hodin, nehybně v absolutní tichosti. Za stromy jsme slyšeli pasoucí se slony, pod nohama nám proplula kobra černá.`,
     },
     {
       url1: "/gallery/slide21-1.webp",
       url2: "/gallery/slide21-2.webp",
       wide: false,
-      caption: `Za soumraku jsme rozdělali stan,
-      snědli připravenou večeři a uložili se
-      ke spánku. V ten moment jsme ještě
-      netušili, že náš průvodce nechal
-      pootevřený vchod do stanu a u něj
-      položenou svítilnu. Během pár minut
-      se tak do stanu dostala stovka
-      komárů a my tak zažili vskutku
-      nezapomenutelnou noc.
+      caption: `Za soumraku jsme rozdělali stan, snědli připravenou večeři a uložili se ke spánku. V ten moment jsme ještě netušili, že náš průvodce nechal pootevřený vchod do stanu a u něj položenou svítilnu. Během pár minut se tak do stanu dostala stovka komárů a my tak zažili vskutku nezapomenutelnou noc.
       Díky bohu za antimalarika.`,
     },
     {
       url1: "/gallery/slide22-1.webp",
       url2: "/gallery/slide22-2.webp",
       wide: false,
-      caption: `Mezitím se někde na opačné straně
-      rezervace, desítky kilometrů od nás,
-      plavila druhá skupinka v čele s Arthurem,
-      Jakubem a Lukášem.
+      caption: `Mezitím se někde na opačné straně rezervace, desítky kilometrů od nás, plavila druhá skupinka v čele s Arthurem, Jakubem a Lukášem.
       
-      Během dvou dnů se jim na nafukovacích
-      kajacích podařilo splavit více než 70km
-      řeky Leboulou a Niari. Po cestě objevili
-      několik loveckých táborů a nastražili
-      fotopasti, které snad odhalí přítomnost
-      vzácných druhů zvířat, ale také pytláků.`,
+      Během dvou dnů se jim na nafukovacích kajacích podařilo splavit více než 70km řeky Leboulou a Niari. Po cestě objevili několik loveckých táborů a nastražili fotopasti, které snad odhalí přítomnost vzácných druhů zvířat, ale také pytláků.`,
     },
     {
       url1: "/gallery/slide23-1.webp",
       url2: "/gallery/slide23-2.webp",
       wide: false,
-      caption: `Příští den nás čekala pětihodinová
-      prašná cesta z Leboulou do Mila Mila
-      a dále na místo setkání s ostatními.
-      K přesunu jsme využili spolujízdu
-      nákladním autem směřujícím do
-      města, které jednou týdne využívají
-      obyvatelé vesnic k transportu zboží
-      všeho druhu - od manioku, přes basy
-      prázdných piv, živých prasat a koz, až
-      po mrtvé cibetky a antilopy.`,
+      caption: `Příští den nás čekala pětihodinová prašná cesta z Leboulou do Mila Mila a dále na místo setkání s ostatními. K přesunu jsme využili spolujízdu nákladním autem směřujícím do města, které jednou týdne využívají obyvatelé vesnic k transportu zboží všeho druhu - od manioku, přes basy prázdných piv, živých prasat a koz, až po mrtvé cibetky a antilopy.`,
     },
     {
       url1: "/gallery/slide24-1.webp",
 
       wide: false,
-      caption: `Po strastiplné cestě jsme dorazili k Modré
-      řece, nevyspaní, unavení, špinaví. Jelikož
-      nás nic dalšího ten den nečekalo, skočili
-      jsme do vody, po dvou dnech si oblékli
-      čisté oblečení a těšili se na zasloužený
-      odpočinek.
+      caption: `Po strastiplné cestě jsme dorazili k Modré řece, nevyspaní, unavení, špinaví. Jelikož nás nic dalšího ten den nečekalo, skočili jsme do vody, po dvou dnech si oblékli čisté oblečení a těšili se na zasloužený odpočinek.
       
-      V ten moment jsme se po dvou dnech
-      setkali s ostatními, když v tom Arthur
-      zakřičel: "Okamžitě se nachystejte, asi
-      kilometr po proudu jsou hroši, vemte si
-      čelovku, za minutu vyrážíme!"
-      Neměli jsme ani čas vzít si boty.`,
+      V ten moment jsme se po dvou dnech setkali s ostatními, když v tom Arthur zakřičel: "Okamžitě se nachystejte, asi kilometr po proudu jsou hroši, vemte si čelovku, za minutu vyrážíme!" Neměli jsme ani čas vzít si boty.`,
     },
     {
       url1: "/gallery/slide25-1.webp",
       url2: "/gallery/slide25-2.webp",
       wide: false,
-      caption: `Během několika chvil jsme pádlovali
-      uprostřed široké řeky Niary a blížili se
-      k nejnebezpečnějším savcům Afriky,
-      kteří ročně zabijí až 500 lidí.
+      caption: `Během několika chvil jsme pádlovali uprostřed široké řeky Niary a blížili se k nejnebezpečnějším savcům Afriky, kteří ročně zabijí až 500 lidí.
       
-      "Arthure, nejsme už moc blízko?" - My,
-      ptající se ze vzdálenosti asi 40m od
-      hrochů.
+      "Arthure, nejsme už moc blízko?" - My, ptající se ze vzdálenosti asi 40m od hrochů.
       
-      "V pohodě, kdyby na vás přece jen
-      zaútočili, hlavně neplavte na hladině,
-      ale pod vodou." odpověděl Arthur.`,
+      "V pohodě, kdyby na vás přece jen zaútočili, hlavně neplavte na hladině, ale pod vodou." odpověděl Arthur.`,
     },
     {
       url1: "/gallery/slide26-1.webp",
       url2: "/gallery/slide26-2.webp",
       wide: false,
-      caption: `Začalo se stmívat, proto jsme se vydali
-      zpět k našemu táboru. Napadlo nás
-      zkrátit si cestu jinudy, ale tato myšlenka
-      se záhy ukázala být tím nejhorším
-      možným řešením.
+      caption: `Začalo se stmívat, proto jsme se vydali zpět k našemu táboru. Napadlo nás zkrátit si cestu jinudy, ale tato myšlenka se záhy ukázala být tím nejhorším možným řešením.
       
-      Po dvou spadlých stromech uprostřed
-      řeky a jejich přebrození skrze prales jsme
-      se vzdali a vrátili se úplně na začátek.
-      Upřímně, jízda kajakem v naprosté tmě
-      na řece s hrochy a krokodýli a nošení lodí
-      bosky džunglí, nebyl tak skvělý nápad, jak
-      se mohlo na první pohled zdát.`,
+      Po dvou spadlých stromech uprostřed řeky a jejich přebrození skrze prales jsme se vzdali a vrátili se úplně na začátek. Upřímně, jízda kajakem v naprosté tmě na řece s hrochy a krokodýli a nošení lodí bosky džunglí, nebyl tak skvělý nápad, jak se mohlo na první pohled zdát.`,
     },
     {
       url1: "/gallery/slide27-1.webp",
 
       wide: true,
-      caption: `Předposlední den nás čekal výšlap
-      přes neprostupný terén na vrcholky
-      čokoládových pahorků.
+      caption: `Předposlední den nás čekal výšlap přes neprostupný terén na vrcholky čokoládových pahorků.
       
-      Po dvou týdnech náročného programu
-      jsme věřili, že už nás nic horšího
-      nečeká a těšili se na návrat do
-      civilizace.
+      Po dvou týdnech náročného programu jsme věřili, že už nás nic horšího nečeká a těšili se na návrat do civilizace.
       
       Jenže motto naší výpravy znělo:
-      "Zítřek bude ještě horší." A tak nás
-      úsměv rychle přešel.`,
+      "Zítřek bude ještě horší." A tak nás úsměv rychle přešel.`,
     },
     {
       url1: "/gallery/slide28-1.webp",
       url2: "/gallery/slide28-2.webp",
       wide: false,
-      caption: `Poté, co jsme dorazili k autu, nám řidič
-      řekl, že se musíme vrátit s jedním z
-      místních zpět do tábora. Arthur jel
-      společně s průvodci, my se rozhodli
-      zůstat na místě. Domluva zněla, že se za
-      dvacet minut vrátí a společně se vydáme
-      dál.
+      caption: `Poté, co jsme dorazili k autu, nám řidič řekl, že se musíme vrátit s jedním z místních zpět do tábora. Arthur jel společně s průvodci, my se rozhodli zůstat na místě. Domluva zněla, že se za dvacet minut vrátí a společně se vydáme dál.
       
-      Po dvou hodinách jsme stále byli u
-      krajnice prašné cesty, kudy projížděla
-      pouze auta dřevařského průmyslu.
+      Po dvou hodinách jsme stále byli u krajnice prašné cesty, kudy projížděla pouze auta dřevařského průmyslu.
       
-      V tom se objevilo naše auto a Arthur
-      zvolal: "Okamžitě nasedat, praskla nám
-      hadička u chladiče!"`,
+      V tom se objevilo naše auto a Arthur zvolal: "Okamžitě nasedat, praskla nám hadička u chladiče!"`,
     },
     {
       url1: "/gallery/slide29-1.webp",
       url2: "/gallery/slide29-2.webp",
       wide: false,
-      caption: `Věděli jste, že se dá vyrobit provizorní
-      lepidlo z banánu, sunaru a vody?
+      caption: `Věděli jste, že se dá vyrobit provizorní lepidlo z banánu, sunaru a vody?
       
-      Po druhé hodině ranní a 6 hodinách na
-      cestě jsme se konečně dostali do města.
-      Bohužel náš hotel byl již plný a museli
-      jsme tak objet další tři, než jsme zalehli
-      do postele.`,
+      Po druhé hodině ranní a 6 hodinách na cestě jsme se konečně dostali do města. Bohužel náš hotel byl již plný a museli jsme tak objet další tři, než jsme zalehli do postele.`,
     },
     {
       url1: "/gallery/slide30-1.webp",
 
       wide: false,
-      caption: `Poslední den jsme se v pořádku
-      dopravili do Brazzaville, dali si
-      společnou večeři a zasmáli se nad
-      všemi svízelnými situacemi, do kterých
-      jsme se za dva týdny putování Kongem
-      dostali.
+      caption: `Poslední den jsme se v pořádku dopravili do Brazzaville, dali si společnou večeři a zasmáli se nad všemi svízelnými situacemi, do kterých jsme se za dva týdny putování Kongem dostali.
       
-      Shodli jsme se, že to byl jeden
-      z nejsilnějších zážitků, které jsme v
-      životě zažili. A že se nemůžeme dočkat,
-      až přijde další!`,
+      Shodli jsme se, že to byl jeden z nejsilnějších zážitků, které jsme v životě zažili. A že se nemůžeme dočkat, až přijde další!`,
     },
   ];
 
@@ -494,7 +303,7 @@ export default function SlideShow() {
               </div>
             </div>
           </div>
-          <div className="pr-2 whitespace-pre-line text-base text-[#23211E]">
+          <div className="flex w-full pr-2 whitespace-pre-line text-base text-[#23211E]">
             {slideImages[slideIndex].caption}
           </div>
         </div>
