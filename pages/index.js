@@ -74,10 +74,10 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className="relative bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-0 ">
-        <Navbar className="absolute z-50 top-0 right-0 left-0" />
+      <div className="relative bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-40">
+        <Navbar className="fixed z-50 " />
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
-        <div className="flex flex-col h-[100vh]  justify-end mx-auto px-7 sm:px-[70px] ">
+        <div className="flex flex-col h-[100vh]  justify-end mx-auto px-7 sm:px-[70px] z-0">
           <div className="flex flex-col">
             <div className="">
               <Image
