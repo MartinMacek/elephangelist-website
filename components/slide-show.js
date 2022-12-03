@@ -278,7 +278,7 @@ export default function SlideShow() {
             </div>
             <div className="flex flex-row gap-x-3 md:my-6">
               <div
-                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer items-center flex justify-center pr-1"
+                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer items-center flex justify-center pr-1 hover:shadow-md"
                 onClick={() => slideRef.current.goBack()}
               >
                 <Image
@@ -290,7 +290,7 @@ export default function SlideShow() {
                 />
               </div>
               <div
-                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer items-center flex justify-center pl-1"
+                className="w-8 md:w-12 h-8 md:h-12 bg-[#BCAE7E] rounded-full cursor-pointer items-center flex justify-center pl-1 hover:shadow-md "
                 onClick={() => slideRef.current.goNext()}
               >
                 <Image
