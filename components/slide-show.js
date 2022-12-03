@@ -457,8 +457,8 @@ export default function SlideShow() {
         </Slide>
       </div>
       <div className="flex w-full md:w-1/2 lg:w-1/4 overflow-hidden p-2">
-        <div className="flex flex-col mx-5 md:mx-0 md:mt-12">
-          <div className="flex flex-row md:flex-col justify-between">
+        <div className="flex flex-col mx-5 md:mx-0 md:mt-12 w-full">
+          <div className="flex flex-row md:flex-col justify-between ">
             <div className="flex flex-row font-['Bebas_Neue']">
               <div className="text-[80px] md:text-[137px] leading-none">
                 {slideIndex + 1}
