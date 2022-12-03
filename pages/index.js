@@ -180,7 +180,7 @@ export default function Home() {
             src={"/assets/ripped.webp"}
             alt="divider"
             layout="fill"
-            unselectable
+            unselectable={true}
           />
         </div>
         <div className="absolute z-0  w-max opacity-50 rotate-180 right-0 top-[2800px] md:top-[1600px]">
