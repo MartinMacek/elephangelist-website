@@ -74,9 +74,8 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <Navbar />
-
       <div className="relative bg-[url('/assets/index_bg.webp')] bg-cover bg-top z-0 ">
+        <Navbar className="absolute z-50 top-0 right-0 left-0" />
         <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
         <div className="flex flex-col h-[100vh]  justify-end mx-auto px-7 sm:px-[70px] ">
           <div className="flex flex-col">
