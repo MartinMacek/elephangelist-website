@@ -21,6 +21,7 @@ export default function SlideShow() {
     },
     {
       url1: "/gallery/slide3-1.webp",
+      url2: "/gallery/slide3-2.webp",
       wide: false,
       caption: `Přírodní chráněná rezervace Lefini je území rozprostírající se v náhorní plošině o rozloze 6300 km2. Původně sloužila jako útočiště pro reintrodukci goril osiřelých nelegálním obchodem s masem. Přestože se nachází pouze 200 km od hlavního města Konga - Brazzaville, vyskytují se zde velcí afričtí savci jako jsou buvoli, hroši, levharti nebo sloni pralesní. Ihned jsme se proto vydali prozkoumat okolí.`,
     },
@@ -40,6 +41,7 @@ export default function SlideShow() {
     },
     {
       url1: "/gallery/slide6-1.webp",
+      url2: "/gallery/slide6-2.webp",
       wide: false,
       caption: `Našli jsme ideální úkryt s výhledem na koryto řeky. Následující tři dny jsme strávili vyčkáváním, zda se sloni pralesní objeví. Štěstí jsme nakonec neměli a museli si tak počkat do dalších dnů.`,
     },
@@ -57,6 +59,7 @@ export default function SlideShow() {
     },
     {
       url1: "/gallery/slide9-1.webp",
+      url2: "/gallery/slide9-2.webp",
       wide: false,
       caption: `Nejdříve jsme se ale zastavili ve městě Dolisie pro všechna potřebná povolení. Víte, kdo je českou spojkou v této oblasti? Nikdo jiný než Mireček z filmu Jak básníci přicházejí o iluze. Vlastním jménem Joseph Dielle. V 80. letech studoval režii na FAMU v Praze, momentálně ale žije zpátky v Kongu. Češtinu sice pozapomněl, ale Česko stále považuje za svůj druhý domov.`,
     },
@@ -68,6 +71,7 @@ export default function SlideShow() {
     },
     {
       url1: "/gallery/slide11-1.webp",
+      url2: "/gallery/slide11-2.webp",
       wide: false,
       caption: `Jelikož se náš řidič vrátil do města a v oblasti nebyla dostupná další auta, nezbývalo nám nic jiného, než si pronajmout jediné dvě motorky, které se ve vesnici nacházely. Každý den jsme se tak nedobrovolně vydávali na 7 kilometrovou strastiplnou cestu. Nebudeme lhát, mysleli jsme, že je naše poslední.`,
     },
@@ -157,6 +161,7 @@ export default function SlideShow() {
     },
     {
       url1: "/gallery/slide24-1.webp",
+      url2: "/gallery/slide24-2.webp",
 
       wide: false,
       caption: `Po strastiplné cestě jsme dorazili k Modré řece, nevyspaní, unavení, špinaví. Jelikož nás nic dalšího ten den nečekalo, skočili jsme do vody, po dvou dnech si oblékli čisté oblečení a těšili se na zasloužený odpočinek.
@@ -212,6 +217,7 @@ export default function SlideShow() {
     },
     {
       url1: "/gallery/slide30-1.webp",
+      url2: "/gallery/slide30-2.webp",
 
       wide: false,
       caption: `Poslední den jsme se v pořádku dopravili do Brazzaville, dali si společnou večeři a zasmáli se nad všemi svízelnými situacemi, do kterých jsme se za dva týdny putování Kongem dostali.

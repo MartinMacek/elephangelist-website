@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import ProfileItem from "../components/profile-item";
 import SlideShow from "../components/slide-show";
 import { useTranslation } from "../utils/translateHook";
+import { useRouter } from "next/router";
 
 export default function Backstage() {
   const translate = useTranslation().translate;
@@ -77,13 +78,17 @@ export default function Backstage() {
           <Image src={"/assets/ripped.webp"} alt="divider" layout="fill" />
         </div>
       </div>
-      <div className="flex flex-col bg-white text-black w-full">
-        <div className="flex max-w-6xl mx-auto text-center text-[55px] sm:text-[90px] leading-tight font-['Bebas_Neue'] mt-24">
-          jak probíhalo natáčení
-        </div>
+      {useRouter().locale == "cs" ? (
+        <div className="flex flex-col bg-white text-black w-full">
+          <div className="flex max-w-6xl mx-auto text-center text-[55px] sm:text-[90px] leading-tight font-['Bebas_Neue'] mt-24">
+            jak probíhalo natáčení
+          </div>
 
-        <SlideShow />
-      </div>
+          <SlideShow />
+        </div>
+      ) : (
+        <div className="h-40 bg-white" />
+      )}
 
       <Footer />
     </div>
