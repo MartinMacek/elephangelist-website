@@ -7,11 +7,14 @@ export default function Contact() {
   const translate = useTranslation().translate;
   return (
     <div className="overflow-hidden">
-      <div className=" ">
-        <div className="relative ">
-          <div className="absolute top-0 left-0 right-0 bg-[url('/assets/contact_bg.webp')] bg-cover bg-top h-screen z-0 brightness-75"></div>
+      <div className="">
+        <div className="relative">
+          <div className="absolute h-screen top-0 left-0 right-0">
+            <div className="absolute top-0 left-0 right-0 bg-[url('/assets/contact_bg.webp')] bg-cover bg-top h-screen z-0 brightness-75"></div>
+            <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0"></div>
+          </div>
         </div>
-        <div className="absolute w-full h-[100px] bottom-inner-shadow bottom-0 "></div>
+
         <Navbar />
         <div className="min-h-screen">
           <div className=" flex flex-col max-w-4xl  mx-auto h-[70vh] text-white z-10 ">
