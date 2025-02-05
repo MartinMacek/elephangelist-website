@@ -75,8 +75,8 @@ export default function Contact() {
                 Martina Vysloužilová
               </div>
               <div className="flex">
-                <a href="mailto:martina.vyslouzilova@upol.cz">
-                  martina.vyslouzilova@upol.cz
+                <a href="mailto:martina.vyslouzilova@save-elephants.org">
+                martina.vyslouzilova@save-elephants.org
                 </a>
               </div>
               <div>
